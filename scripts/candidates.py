@@ -30,8 +30,8 @@ def sheet(items, out, label_size=120):
     im = Image.new("RGB", (cols * (tw + 20) + 20, rows * (th + 20) + 20), "#F2F2F2")
     try:
         font = ImageFont.truetype("arialbd.ttf", label_size)
-    except OSError:
-        font = ImageFont.load_default()
+    except OSError:  # no Arial Bold outside Windows: Pillow's built-in font scales too
+        font = ImageFont.load_default(size=label_size)
     d = ImageDraw.Draw(im)
     for k, ((letter, _), t) in enumerate(zip(items, tiles)):
         r, c = divmod(k, cols)
