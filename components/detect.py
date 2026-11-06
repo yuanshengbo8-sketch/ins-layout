@@ -59,14 +59,17 @@ def detect_pose(im: Image.Image):
     except Exception as e:  # noqa
         print("pose import failed:", repr(e)); return None
     rgb = np.asarray(im.convert("RGB"))
-    try:
-        mp_im = mp.Image(image_format=mp.ImageFormat.SRGB, data=rgb)
-    except AttributeError:
-        from mediapipe.tasks.python.vision.core import image as mpimage
-        mp_im = mpimage.Image(image_format=mpimage.ImageFormat.SRGB, data=rgb)
-    opts = vision.PoseLandmarkerOptions(base_options=BaseOptions(model_asset_path=str(POSE)), num_poses=1)
-    with vision.PoseLandmarker.create_from_options(opts) as lm:
-        res = lm.detect(mp_im)
+    try:  # feet are a nice-to-have: a missing system library (libEGL on Linux) must not stop a render
+        try:
+            mp_im = mp.Image(image_format=mp.ImageFormat.SRGB, data=rgb)
+        except AttributeError:
+            from mediapipe.tasks.python.vision.core import image as mpimage
+            mp_im = mpimage.Image(image_format=mpimage.ImageFormat.SRGB, data=rgb)
+        opts = vision.PoseLandmarkerOptions(base_options=BaseOptions(model_asset_path=str(POSE)), num_poses=1)
+        with vision.PoseLandmarker.create_from_options(opts) as lm:
+            res = lm.detect(mp_im)
+    except Exception as e:  # noqa
+        print("pose detection skipped:", repr(e)[:120]); return None
     if not res.pose_landmarks:
         return None
     pts = res.pose_landmarks[0]
