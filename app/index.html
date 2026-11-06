@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>ins排版台</title>
+<link rel="icon" href="/icon.png">
+<style>
+:root{--bg:#F6F3EE;--card:#FFFDFA;--ink:#1F1B18;--soft:#7B7168;--line:#E4DDD3;--accent:#D9486E;--accent-soft:#FBE7ED}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 "Microsoft YaHei","PingFang SC",system-ui,sans-serif}
+header{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:12px;padding:14px 28px;background:var(--bg);border-bottom:1px solid var(--line)}
+header img{width:30px;height:30px;border-radius:7px}
+header h1{font-size:17px;margin:0;font-weight:700}
+header .hint{margin-left:auto;color:var(--soft);font-size:13px}
+main{max-width:1180px;margin:0 auto;padding:22px 28px 110px}
+button{font:inherit;cursor:pointer}
+#drop{height:calc(100vh - 170px);min-height:320px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:var(--card);border:2px dashed #CFC5B8;border-radius:18px;cursor:pointer;transition:.15s}
+#drop:hover,body.dragging #drop{border-color:var(--accent);background:var(--accent-soft)}
+#drop svg{width:64px;height:64px;color:var(--accent)}
+#drop b{font-size:24px}
+#drop span{color:var(--soft)}
+.q{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px 20px;margin-bottom:18px}
+.q-head{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.q-head .num{font-weight:700;white-space:nowrap}
+.q-head .name{color:var(--soft);font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.q-head .x{margin-left:auto;border:0;background:none;color:var(--soft);font-size:13px;white-space:nowrap}
+.q-head .x:hover{color:var(--accent)}
+.opts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr)) 112px;gap:12px}
+.opt{position:relative;aspect-ratio:4/5;border:3px solid transparent;border-radius:12px;padding:0;background:#EDE7DE;overflow:hidden}
+.opt img{display:block;width:100%;height:100%;object-fit:cover}
+.opt.on{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.opt .l{position:absolute;left:8px;top:8px;width:30px;height:30px;line-height:30px;text-align:center;border-radius:8px;background:rgba(20,16,14,.78);color:#fff;font-weight:700}
+.opt.on .l{background:var(--accent)}
+.fs{position:absolute;right:8px;top:8px;width:30px;height:30px;border-radius:8px;background:rgba(20,16,14,.62);color:#fff;display:grid;place-items:center}
+.fs:hover{background:rgba(20,16,14,.9)}
+.fs svg{width:16px;height:16px}
+.opt.wait{display:grid;place-items:center;color:var(--soft);font-size:13px;cursor:default}
+.again{border:1.5px dashed #CFC5B8;border-radius:12px;background:none;color:var(--ink);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:8px}
+.again:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}
+.again b{font-size:22px}
+.again small{color:var(--soft);line-height:1.35}
+.again:disabled{opacity:.45;cursor:default}
+.err{color:var(--accent);padding:6px 0}
+footer{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--card);border-top:1px solid var(--line);display:flex;align-items:center;gap:14px;padding:13px 28px}
+footer .count{color:var(--soft)}
+.go{margin-left:auto;border:0;border-radius:10px;background:var(--accent);color:#fff;font-weight:700;padding:11px 30px;font-size:16px}
+.go:disabled{background:#D8CFC4;cursor:default}
+.ghost{border:1px solid var(--line);background:var(--card);border-radius:10px;padding:10px 18px}
+.ghost:hover{border-color:var(--accent);color:var(--accent)}
+#done{text-align:center;padding:30px 0}
+#done h2{font-size:24px;margin:0 0 6px}
+#done p{color:var(--soft);margin:0 0 20px;word-break:break-all}
+#done .row{display:flex;justify-content:center;gap:12px;margin-bottom:26px}
+#done .row .go{margin:0}
+.pages{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px}
+.pages img{width:100%;border-radius:10px;display:block}
+#view{position:fixed;inset:0;z-index:20;background:#0E0C0B;display:none;align-items:center;justify-content:center}
+#view.on{display:flex}
+#view img{max-width:100%;max-height:100%;object-fit:contain}
+#view .bar{position:absolute;right:18px;top:18px;display:flex;gap:10px}
+#view .bar button{border:0;border-radius:10px;padding:10px 16px;background:rgba(255,255,255,.14);color:#fff}
+#view .bar .sel{background:var(--accent);font-weight:700}
+#view .nav{position:absolute;top:50%;transform:translateY(-50%);width:50px;height:70px;border:0;border-radius:10px;background:rgba(255,255,255,.1);color:#fff;font-size:26px}
+#view .prev{left:18px}
+#view .next{right:18px}
+@media (max-width:860px){.opts{grid-template-columns:repeat(2,minmax(0,1fr))}.again{min-height:90px;grid-column:span 2}}
+</style>
+</head>
+<body>
+<header><img src="/icon.png" alt=""><h1>ins排版台</h1><span class="hint" id="hint"></span></header>
+<main id="main"></main>
+<footer id="foot" hidden>
+  <span class="count" id="count"></span>
+  <button class="ghost" id="add">继续加照片</button>
+  <button class="go" id="submit" disabled>提交</button>
+</footer>
+<input type="file" id="file" accept="image/*,.heic,.heif" multiple hidden>
+<div id="view"><img alt=""><div class="bar"><button class="sel"></button><button class="close">关闭</button></div>
+<button class="nav prev">‹</button><button class="nav next">›</button></div>
+<script>
+const $=s=>document.querySelector(s), main=$('#main'), view=$('#view');
+const FS='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>';
+const PIC='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="15" rx="2.5"/><circle cx="8.5" cy="10" r="1.7"/><path d="m3 17 5.5-4.5 4 3.5 3-2.5L21 17"/></svg>';
+let S={photos:[],engine:'starting'}, cards={}, viewing=null, last='', notice='';
+const post=(u,b={})=>fetch(u,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(b)});
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function showHint(){
+  const engine=S.engine==='starting'?'正在启动排版引擎，第一次会慢一点…':(S.engine.startsWith('failed')?'排版引擎启动失败，请关掉窗口重新打开':'');
+  $('#hint').textContent=notice||engine;
+}
+async function upload(list){
+  const ok=[...list].filter(f=>/\.(jpe?g|png|webp|heic|heif)$/i.test(f.name));
+  notice=ok.length?'正在读取照片…':'只支持 JPG、PNG、WebP 和 HEIC 照片';showHint();
+  for(const f of ok) await fetch('/upload?name='+encodeURIComponent(f.name),{method:'PUT',body:f});
+  if(ok.length)notice='';
+  showHint();tick();
+}
+addEventListener('dragover',e=>{e.preventDefault();document.body.classList.add('dragging')});
+addEventListener('dragleave',e=>{if(!e.relatedTarget)document.body.classList.remove('dragging')});
+addEventListener('drop',e=>{e.preventDefault();document.body.classList.remove('dragging');upload(e.dataTransfer.files)});
+$('#file').onchange=e=>{upload(e.target.files);e.target.value=''};
+$('#add').onclick=()=>$('#file').click();
+$('#submit').onclick=async()=>{$('#submit').disabled=true;$('#submit').textContent='打包中…';await post('/submit');$('#submit').textContent='提交';tick()};
+function emptyView(){
+  main.innerHTML=`<div id="drop">${PIC}<b>把照片拖到这里</b><span>或点击选择照片，可以一次放多张</span></div>`;
+  $('#drop').onclick=()=>$('#file').click();
+}
+function doneView(d){
+  main.innerHTML=`<div id="done"><h2>选好了，已保存到桌面</h2><p>${esc(d.folder)}</p><div class="row"><button class="go" id="openf">打开文件夹</button><button class="ghost" id="more">再做一组</button></div><div class="pages">${d.pages.map(p=>`<img src="${p.url}" alt="">`).join('')}</div></div>`;
+  $('#openf').onclick=()=>post('/open');
+  $('#more').onclick=async()=>{await post('/reset');cards={};last='';tick()};
+}
+function card(p,i,total){
+  const opts=p.cands.map(c=>`<button class="opt ${p.pick===c.letter?'on':''}" data-p="${p.id}" data-l="${c.letter}"><img src="${c.url}" alt="方案 ${c.letter}"><span class="l">${c.letter}</span><span class="fs" role="button" title="全屏看" data-fs="${c.letter}">${FS}</span></button>`).join('');
+  const busy=p.status==='queued'||p.status==='working';
+  const waits=busy?Array(Math.max(0,4-p.cands.length)).fill('<div class="opt wait">排版中…</div>').join(''):'';
+  const body=p.status==='error'?`<div class="err">${esc(p.error)}</div>`:`<div class="opts">${opts}${waits}<button class="again" data-again="${p.id}" ${busy?'disabled':''}><b>E</b><small>都不喜欢<br>换一批</small></button></div>`;
+  return `<section class="q" id="q${p.id}"><div class="q-head"><span class="num">第 ${i+1} 题，共 ${total} 题</span><span class="name">${esc(p.name)}</span><button class="x" data-x="${p.id}">移除</button></div>${body}</section>`;
+}
+function render(){
+  showHint();
+  if(S.done){doneView(S.done);$('#foot').hidden=true;cards={};return}
+  if(!S.photos.length){emptyView();$('#foot').hidden=true;cards={};return}
+  if(main.querySelector('#drop,#done'))main.innerHTML='';
+  const total=S.photos.length, ids=new Set(S.photos.map(p=>p.id));
+  for(const id in cards) if(!ids.has(id)){document.getElementById('q'+id)?.remove();delete cards[id]}
+  S.photos.forEach((p,i)=>{
+    const html=card(p,i,total);
+    if(cards[p.id]===html)return;
+    const old=document.getElementById('q'+p.id);
+    if(old)old.outerHTML=html;else main.insertAdjacentHTML('beforeend',html);
+    cards[p.id]=html;
+  });
+  const usable=S.photos.filter(p=>p.status!=='error'), picked=usable.filter(p=>p.pick).length;
+  $('#foot').hidden=false;
+  $('#count').textContent=`已选 ${picked} / ${S.photos.length}`;
+  if($('#submit').textContent==='提交')$('#submit').disabled=picked<S.photos.length;
+}
+main.addEventListener('click',async e=>{
+  const fs=e.target.closest('[data-fs]');
+  if(fs){e.stopPropagation();const o=fs.closest('.opt');return openView(o.dataset.p,o.dataset.l)}
+  const opt=e.target.closest('.opt[data-p]');
+  if(opt){await post('/pick',{id:opt.dataset.p,letter:opt.dataset.l});return tick()}
+  const ag=e.target.closest('[data-again]');
+  if(ag){await post('/again',{id:ag.dataset.again});return tick()}
+  const x=e.target.closest('[data-x]');
+  if(x){await post('/remove',{id:x.dataset.x});return tick()}
+});
+function openView(id,letter){viewing={id,letter};showView();view.classList.add('on');view.requestFullscreen?.().catch(()=>{})}
+function showView(){
+  const p=S.photos.find(q=>q.id===viewing.id), c=p?.cands.find(k=>k.letter===viewing.letter);
+  if(!c)return closeView();
+  view.querySelector('img').src=c.url;
+  view.querySelector('.sel').textContent=p.pick===c.letter?`已选 ${c.letter}`:`选 ${c.letter}`;
+}
+function closeView(){viewing=null;view.classList.remove('on');if(document.fullscreenElement)document.exitFullscreen().catch(()=>{})}
+function stepView(d){const p=S.photos.find(q=>q.id===viewing.id),n=p.cands.length,k=p.cands.findIndex(c=>c.letter===viewing.letter);viewing.letter=p.cands[(k+d+n)%n].letter;showView()}
+view.querySelector('.close').onclick=closeView;
+view.querySelector('.prev').onclick=()=>stepView(-1);
+view.querySelector('.next').onclick=()=>stepView(1);
+view.querySelector('.sel').onclick=async()=>{await post('/pick',{id:viewing.id,letter:viewing.letter});await tick();showView()};
+document.addEventListener('fullscreenchange',()=>{if(!document.fullscreenElement&&viewing)closeView()});
+addEventListener('keydown',e=>{if(!viewing)return;if(e.key==='Escape')closeView();if(e.key==='ArrowLeft')stepView(-1);if(e.key==='ArrowRight')stepView(1)});
+async function tick(){
+  try{
+    const t=await (await fetch('/state')).text();
+    if(t!==last){last=t;S=JSON.parse(t);render()}
+  }catch(e){$('#hint').textContent='连接已断开，请关掉窗口重新打开'}
+}
+addEventListener('pagehide',()=>navigator.sendBeacon('/bye','{}'));
+emptyView();tick();setInterval(tick,800);
+</script>
+</body>
+</html>
