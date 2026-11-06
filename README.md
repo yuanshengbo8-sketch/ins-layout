@@ -28,7 +28,9 @@
 
 ## 快速开始
 
-需要 Python 3.12 和大约 1GB 磁盘空间（主要是 Chromium 和依赖）。
+需要 Python 3.12 和约 1.2GB 磁盘空间（主要是 Chromium 和依赖）。网络顺畅时，从下载到出第一张图大约 2 分钟。
+
+没装 Git 也可以：在 GitHub 页面点 **Code → Download ZIP**，解压后进入文件夹，从 `python -m venv .venv` 这一步开始。
 
 ```bash
 git clone https://github.com/yuanshengbo8-sketch/ins-layout.git
@@ -72,7 +74,7 @@ python scripts/preflight.py
 python scripts/candidates.py --photo examples/photos/demo_01_park.jpg --auto --out out
 ```
 
-换成你自己的照片时，把路径改掉就行。
+换成你自己的照片时，把路径改掉就行。支持 JPG、PNG、WebP 和 iPhone 的 HEIC，手机原图的旋转方向会自动处理。
 
 ## 常用命令
 

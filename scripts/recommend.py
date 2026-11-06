@@ -32,6 +32,7 @@ DISLIKED = {"face-stickers": -1.2, "sticker-stars": -0.8, "sticker-tags": -0.8, 
             "split-words": -0.8, "big-words": -0.5, "face-mask": -1.5, "pixel-fragments": -0.6, "word-cloud": -0.6, "ui-browser": -0.4,
             "ui-share": -0.4, "ui-ticket": -0.4}
 NEEDS_FEET = {"INS-195"}
+SELFIE_ONLY = {"INS-216"}  # decoration floats beside the head, so a small head leaves it stranded in the background
 CLOSEUP_OK = {"INS-056", "INS-134", "INS-142", "INS-143", "INS-145", "INS-162", "INS-173", "INS-212", "INS-218", "INS-208", "INS-206"}
 
 
@@ -105,6 +106,9 @@ def score(lid, fam, photo, picks, rejects):
     ov = 0.0 if adaptive(lid) else head_overlap(lid, photo)
     if ov > 0.02:
         s -= 3.0 * ov; why.append(f"covers {ov:.0%} of head")
+    hd = photo.get("head")
+    if lid in SELFIE_ONLY and (not hd or hd["h"] < 0.22):
+        return None
     if lid in NEEDS_FEET:
         if not photo["feet"]:
             return None
