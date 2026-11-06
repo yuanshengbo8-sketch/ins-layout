@@ -84,6 +84,18 @@ Linux 服务器还需要装系统库和中文字体：
 sudo apt-get install -y libgl1 libglib2.0-0 libegl1 libgles2 fonts-noto-cjk fonts-noto-color-emoji
 ```
 
+## 桌面窗口（Windows）
+
+不想敲命令的话，运行一次下面这行，桌面上会多一个「ins排版台」图标：
+
+```bash
+powershell -ExecutionPolicy Bypass -File app/make_shortcut.ps1
+```
+
+双击图标打开窗口，把照片拖进去，每张照片是一道选择题：A、B、C、D 四个方案，E 换一批。每张图右上角可以全屏查看。全部选完点提交，成品保存到桌面的 `ins排版` 文件夹。你的选择会记下来，下一次的推荐会更合你的口味。
+
+照片只在你的电脑上处理，不会上传，窗口关闭后程序留存的副本会自动清除。
+
 ## 常用命令
 
 ```bash
