@@ -1,0 +1,1168 @@
+{
+ "INS-033": {
+  "window": [
+   0.0,
+   0.05625,
+   1.0,
+   0.89
+  ],
+  "overlay_ratio": 0.2368,
+  "photos": 7,
+  "family": "ui-message"
+ },
+ "INS-037": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.084,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-042": {
+  "window": [
+   0.30833333333333335,
+   0.105625,
+   0.8716666666666667,
+   0.76
+  ],
+  "overlay_ratio": 0.4536,
+  "photos": 2,
+  "family": "ui-message"
+ },
+ "INS-048": {
+  "window": [
+   0.3333333333333333,
+   0.06875,
+   0.8666666666666667,
+   0.76875
+  ],
+  "overlay_ratio": 0.1715,
+  "photos": 3,
+  "family": "ui-message"
+ },
+ "INS-049": {
+  "window": [
+   0.0,
+   0.0375,
+   1.0,
+   0.93125
+  ],
+  "overlay_ratio": 0.2543,
+  "photos": 3,
+  "family": "ui-picker"
+ },
+ "INS-050": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.012,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-052": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0177,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-053": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0572,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-054": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0317,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-055": {
+  "window": [
+   0.0,
+   0.0,
+   0.9666666666666667,
+   1.0
+  ],
+  "overlay_ratio": 0.0308,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-056": {
+  "window": [
+   0.0,
+   0.03125,
+   1.0,
+   0.96875
+  ],
+  "overlay_ratio": 0.0044,
+  "photos": 2,
+  "family": "circle-inset"
+ },
+ "INS-057": {
+  "window": [
+   0.0,
+   0.0375,
+   1.0,
+   0.96875
+  ],
+  "overlay_ratio": 0.0711,
+  "photos": 2,
+  "family": "big-words"
+ },
+ "INS-058": {
+  "window": [
+   0.0,
+   0.03125,
+   1.0,
+   0.96625
+  ],
+  "overlay_ratio": 0.058,
+  "photos": 7,
+  "family": "ui-album"
+ },
+ "INS-059": {
+  "window": [
+   0.03333333333333333,
+   0.025,
+   0.9666666666666667,
+   0.975
+  ],
+  "overlay_ratio": 0.0182,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-060": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0122,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-062": {
+  "window": [
+   0.075,
+   0.03125,
+   0.925,
+   0.96875
+  ],
+  "overlay_ratio": 0.1301,
+  "photos": 1,
+  "family": "ui-calendar"
+ },
+ "INS-063": {
+  "window": [
+   0.0,
+   0.03125,
+   1.0,
+   0.98125
+  ],
+  "overlay_ratio": 0.0411,
+  "photos": 2,
+  "family": "ui-focus"
+ },
+ "INS-065": {
+  "window": [
+   0.0,
+   0.03125,
+   1.0,
+   0.96875
+  ],
+  "overlay_ratio": 0.0159,
+  "photos": 2,
+  "family": "big-words"
+ },
+ "INS-070": {
+  "window": [
+   0.15,
+   0.26875,
+   0.9166666666666666,
+   0.7
+  ],
+  "overlay_ratio": 0.2266,
+  "photos": 3,
+  "family": "ui-schedule"
+ },
+ "INS-075": {
+  "window": [
+   0.0,
+   0.04375,
+   1.0,
+   0.95625
+  ],
+  "overlay_ratio": 0.0303,
+  "photos": 1,
+  "family": "sticker-tags"
+ },
+ "INS-082": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0323,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-083": {
+  "window": [
+   0.0,
+   0.025,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.0146,
+  "photos": 1,
+  "family": "camera-hud"
+ },
+ "INS-084": {
+  "window": [
+   0.0,
+   0.025,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.0115,
+  "photos": 1,
+  "family": "camera-hud"
+ },
+ "INS-086": {
+  "window": [
+   0.0,
+   0.06875,
+   1.0,
+   0.9375
+  ],
+  "overlay_ratio": 0.0844,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-087": {
+  "window": [
+   0.03,
+   0.0225,
+   0.97,
+   0.9775
+  ],
+  "overlay_ratio": 0.0201,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-088": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0428,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-089": {
+  "window": [
+   0.0,
+   0.03125,
+   1.0,
+   0.96875
+  ],
+  "overlay_ratio": 0.0324,
+  "photos": 1,
+  "family": "ui-focus"
+ },
+ "INS-095": {
+  "window": [
+   0.0,
+   0.025,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.0201,
+  "photos": 1,
+  "family": "ui-music"
+ },
+ "INS-103": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.1224,
+  "photos": 1,
+  "family": "ui-browser"
+ },
+ "INS-104": {
+  "window": [
+   0.0,
+   0.03125,
+   1.0,
+   0.96875
+  ],
+  "overlay_ratio": 0.0099,
+  "photos": 2,
+  "family": "sticker-stars"
+ },
+ "INS-107": {
+  "window": [
+   0.0,
+   0.0375,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.0728,
+  "photos": 1,
+  "family": "duplicate-note"
+ },
+ "INS-108": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0199,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-109": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0198,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-110": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0178,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-112": {
+  "window": [
+   0.0,
+   0.03125,
+   1.0,
+   0.96875
+  ],
+  "overlay_ratio": 0.0086,
+  "photos": 2,
+  "family": "ui-weather"
+ },
+ "INS-113": {
+  "window": [
+   0.38333333333333336,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.02,
+  "photos": 1,
+  "family": "split-words"
+ },
+ "INS-114": {
+  "window": [
+   0.0,
+   0.2,
+   0.8666666666666667,
+   0.7125
+  ],
+  "overlay_ratio": 0.1713,
+  "photos": 3,
+  "family": "collage-notes"
+ },
+ "INS-118": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0023,
+  "photos": 1,
+  "family": "camera-hud"
+ },
+ "INS-120": {
+  "window": [
+   0.10833333333333334,
+   0.15,
+   0.5583333333333333,
+   0.5625
+  ],
+  "overlay_ratio": 0.1345,
+  "photos": 2,
+  "family": "collage-notes"
+ },
+ "INS-122": {
+  "window": [
+   0.0,
+   0.05,
+   1.0,
+   0.95
+  ],
+  "overlay_ratio": 0.0019,
+  "photos": 2,
+  "family": "big-words"
+ },
+ "INS-124": {
+  "window": [
+   0.0,
+   0.025,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.0091,
+  "photos": 1,
+  "family": "camera-hud"
+ },
+ "INS-125": {
+  "window": [
+   0.0,
+   0.025,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.0002,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-127": {
+  "window": [
+   0.03333333333333333,
+   0.025,
+   0.9666666666666667,
+   0.975
+  ],
+  "overlay_ratio": 0.0258,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-128": {
+  "window": [
+   0.03333333333333333,
+   0.025,
+   0.9666666666666667,
+   0.975
+  ],
+  "overlay_ratio": 0.0254,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-134": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0818,
+  "photos": 1,
+  "family": "ui-share"
+ },
+ "INS-135": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.1657,
+  "photos": 6,
+  "family": "ui-profile"
+ },
+ "INS-137": {
+  "window": [
+   0.0,
+   0.0125,
+   1.0,
+   0.9875
+  ],
+  "overlay_ratio": 0.02,
+  "photos": 1,
+  "family": "word-cloud"
+ },
+ "INS-139": {
+  "window": [
+   0.11666666666666667,
+   0.29375,
+   0.8833333333333333,
+   0.74375
+  ],
+  "overlay_ratio": 0.0008,
+  "photos": 1,
+  "family": "ui-ticket"
+ },
+ "INS-140": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0655,
+  "photos": 1,
+  "family": "sticker-caption"
+ },
+ "INS-142": {
+  "window": [
+   0.0,
+   0.0375,
+   1.0,
+   0.9625
+  ],
+  "overlay_ratio": 0.0222,
+  "photos": 1,
+  "family": "face-stickers"
+ },
+ "INS-143": {
+  "window": [
+   0.06666666666666667,
+   0.175,
+   0.9333333333333333,
+   0.95
+  ],
+  "overlay_ratio": 0.0039,
+  "photos": 1,
+  "family": "face-stickers"
+ },
+ "INS-145": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0308,
+  "photos": 1,
+  "family": "letter-rain"
+ },
+ "INS-147": {
+  "window": [
+   0.0,
+   0.025,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.0511,
+  "photos": 2,
+  "family": "stacked-dots"
+ },
+ "INS-150": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0644,
+  "photos": 1,
+  "family": "face-stickers"
+ },
+ "INS-162": {
+  "window": [
+   0.05,
+   0.025,
+   0.95,
+   0.975
+  ],
+  "overlay_ratio": 0.031,
+  "photos": 1,
+  "family": "face-stickers"
+ },
+ "INS-163": {
+  "window": [
+   0.0,
+   0.025,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.0396,
+  "photos": 2,
+  "family": "ui-message"
+ },
+ "INS-164": {
+  "window": [
+   0.0,
+   0.025,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.0731,
+  "photos": 1,
+  "family": "ui-message"
+ },
+ "INS-166": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.1173,
+  "photos": 2,
+  "family": "desktop-icons"
+ },
+ "INS-167": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.027,
+  "photos": 1,
+  "family": "sticker-stars"
+ },
+ "INS-168": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0554,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-171": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0013,
+  "photos": 1,
+  "family": "caption-notes"
+ },
+ "INS-173": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0134,
+  "photos": 1,
+  "family": "letter-rain"
+ },
+ "INS-177": {
+  "window": [
+   0.0,
+   0.0375,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.0829,
+  "photos": 2,
+  "family": "ui-music"
+ },
+ "INS-191": {
+  "window": [
+   0.0,
+   0.075,
+   1.0,
+   0.9975
+  ],
+  "overlay_ratio": 0.3401,
+  "photos": 9,
+  "family": "ui-message"
+ },
+ "INS-193": {
+  "window": [
+   0.0,
+   0.0125,
+   1.0,
+   0.985
+  ],
+  "overlay_ratio": 0.0239,
+  "photos": 4,
+  "family": "ui-schedule"
+ },
+ "INS-194": {
+  "window": [
+   0.03,
+   0.0225,
+   0.97,
+   0.9775
+  ],
+  "overlay_ratio": 0.0295,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-195": {
+  "window": [
+   0.0,
+   0.025,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.0146,
+  "photos": 1,
+  "family": "split-same-photo"
+ },
+ "INS-196": {
+  "window": [
+   0.14166666666666666,
+   0.0125,
+   0.825,
+   1.0
+  ],
+  "overlay_ratio": 0.0558,
+  "photos": 3,
+  "family": "ui-picker"
+ },
+ "INS-203": {
+  "window": [
+   0.03333333333333333,
+   0.025,
+   0.9666666666666667,
+   0.975
+  ],
+  "overlay_ratio": 0.0081,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-204": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0448,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-205": {
+  "window": [
+   0.0,
+   0.125,
+   1.0,
+   0.8875
+  ],
+  "overlay_ratio": 0.0275,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-206": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0098,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-207": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.015,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-208": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0085,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-209": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0298,
+  "photos": 1,
+  "family": "big-words"
+ },
+ "INS-220": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0293,
+  "photos": 1,
+  "family": "colour-card"
+ },
+ "INS-221": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.0286,
+  "photos": 1,
+  "family": "object-boxes"
+ },
+ "INS-178": {
+  "window": [
+   0.0,
+   0.0375,
+   1.0,
+   0.9625
+  ],
+  "overlay_ratio": 0.0013,
+  "photos": 1,
+  "family": "caption-notes"
+ },
+ "INS-179": {
+  "window": [
+   0.0,
+   0.0375,
+   1.0,
+   0.9625
+  ],
+  "overlay_ratio": 0.002,
+  "photos": 1,
+  "family": "caption-notes"
+ },
+ "INS-197": {
+  "window": [
+   0.13333333333333333,
+   0.025,
+   0.8666666666666667,
+   0.975
+  ],
+  "overlay_ratio": 0.0016,
+  "photos": 1,
+  "family": "caption-notes"
+ },
+ "INS-216": {
+  "window": [
+   0.0,
+   0.04375,
+   1.0,
+   0.95625
+  ],
+  "overlay_ratio": 0.0007,
+  "photos": 1,
+  "family": "caption-notes"
+ },
+ "INS-146": {
+  "window": [
+   0.0,
+   0.025,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.3726,
+  "photos": 1,
+  "family": "ui-music"
+ },
+ "INS-172": {
+  "window": [
+   0.0,
+   0.2125,
+   1.0,
+   0.775
+  ],
+  "overlay_ratio": 0.0335,
+  "photos": 1,
+  "family": "ui-music"
+ },
+ "INS-144": {
+  "window": [
+   0.0,
+   0.0375,
+   1.0,
+   0.9625
+  ],
+  "overlay_ratio": 0.0597,
+  "photos": 1,
+  "family": "ui-music"
+ },
+ "INS-192": {
+  "window": [
+   0.0,
+   0.025,
+   1.0,
+   0.9975
+  ],
+  "overlay_ratio": 0.0127,
+  "photos": 1,
+  "family": "object-boxes"
+ },
+ "INS-047": {
+  "window": [
+   0.14166666666666666,
+   0.225,
+   0.825,
+   0.64375
+  ],
+  "overlay_ratio": 0.3281,
+  "photos": 6,
+  "family": "carrier-tiles"
+ },
+ "INS-064": {
+  "window": [
+   0.8208333333333333,
+   0.1875,
+   0.9208333333333333,
+   0.55625
+  ],
+  "overlay_ratio": 0.0508,
+  "photos": 4,
+  "family": "carrier-strip"
+ },
+ "INS-068": {
+  "window": [
+   0.11,
+   0.2875,
+   0.8466666666666667,
+   0.72125
+  ],
+  "overlay_ratio": 0.7572,
+  "photos": 8,
+  "family": "carrier-notebook"
+ },
+ "INS-077": {
+  "window": [
+   0.25333333333333335,
+   0.3275,
+   0.7466666666666667,
+   0.606875
+  ],
+  "overlay_ratio": 0.0001,
+  "photos": 1,
+  "family": "carrier-airdrop"
+ },
+ "INS-093": {
+  "window": [
+   0.3875,
+   0.15,
+   0.6125,
+   0.89375
+  ],
+  "overlay_ratio": 0.0252,
+  "photos": 4,
+  "family": "carrier-strip"
+ },
+ "INS-174": {
+  "window": [
+   0.23833333333333334,
+   0.30625,
+   0.8916666666666667,
+   0.76
+  ],
+  "overlay_ratio": 0.5955,
+  "photos": 4,
+  "family": "carrier-collage"
+ },
+ "INS-149": {
+  "window": [
+   0.0,
+   0.025,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.112,
+  "photos": 1,
+  "family": "sticker-objects"
+ },
+ "INS-080": {
+  "window": [
+   0.24166666666666667,
+   0.39375,
+   0.95,
+   0.875
+  ],
+  "overlay_ratio": 0.2927,
+  "photos": 3,
+  "family": "ui-schedule"
+ },
+ "INS-102": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.1526,
+  "photos": 1,
+  "family": "ui-ig-post"
+ },
+ "INS-105": {
+  "window": [
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "overlay_ratio": 0.3771,
+  "photos": 4,
+  "family": "ui-calendar"
+ },
+ "INS-123": {
+  "window": [
+   0.0,
+   0.025,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.056,
+  "photos": 3,
+  "family": "collage-sticker"
+ },
+ "INS-211": {
+  "window": [
+   0.0,
+   0.20625,
+   1.0,
+   0.76875
+  ],
+  "overlay_ratio": 0.2002,
+  "photos": 1,
+  "family": "face-mask"
+ },
+ "INS-217": {
+  "window": [
+   0.0,
+   0.025,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.0582,
+  "photos": 1,
+  "family": "face-mask"
+ },
+ "INS-212": {
+  "window": [
+   0.0,
+   0.025,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.1242,
+  "photos": 1,
+  "family": "face-mask"
+ },
+ "INS-218": {
+  "window": [
+   0.0,
+   0.025,
+   1.0,
+   0.975
+  ],
+  "overlay_ratio": 0.0733,
+  "photos": 1,
+  "family": "face-mask"
+ },
+ "INS-032": {
+  "window": [
+   0.6008333333333333,
+   0.5525,
+   0.6841666666666667,
+   0.615
+  ],
+  "overlay_ratio": 0.206,
+  "photos": 1,
+  "family": "carrier-map"
+ },
+ "INS-035": {
+  "window": [
+   0.0,
+   0.156875,
+   0.9766666666666667,
+   0.748125
+  ],
+  "overlay_ratio": 0.1701,
+  "photos": 9,
+  "family": "carrier-tiles"
+ },
+ "INS-219": {
+  "window": [
+   0.23166666666666666,
+   0.078125,
+   0.7366666666666667,
+   0.855625
+  ],
+  "overlay_ratio": 0.1947,
+  "photos": 1,
+  "family": "carrier-phone"
+ },
+ "INS-079": {
+  "window": [
+   0.3925,
+   0.308125,
+   0.615,
+   0.6225
+  ],
+  "overlay_ratio": 0.0442,
+  "photos": 1,
+  "family": "carrier-phone"
+ },
+ "INS-038": {
+  "window": [
+   0.23583333333333334,
+   0.306875,
+   0.8083333333333333,
+   0.651875
+  ],
+  "overlay_ratio": 0.4064,
+  "photos": 2,
+  "family": "carrier-phone"
+ },
+ "INS-138": {
+  "window": [
+   0.38916666666666666,
+   0.00875,
+   0.8875,
+   0.563125
+  ],
+  "overlay_ratio": 0.6823,
+  "photos": 2,
+  "family": "carrier-phone"
+ }
+}

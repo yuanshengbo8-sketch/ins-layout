@@ -1,0 +1,12 @@
+# your photos and outputs stay on your machine
+out/
+cands/
+my-photos/
+previews/
+reports/*
+!reports/.gitkeep
+
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

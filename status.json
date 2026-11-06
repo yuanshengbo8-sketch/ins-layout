@@ -1,0 +1,2371 @@
+{
+ "layouts": {
+  "INS-032": {
+   "technical": "pass",
+   "status": "ready",
+   "page": 2,
+   "cell": [
+    1,
+    0
+   ],
+   "photos": 1,
+   "deps": [
+    "G14",
+    "G14_fg"
+   ],
+   "visual": "pass",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "structure_png": "previews\\structure\\INS-032.png",
+   "compare": "previews\\structure\\INS-032.png",
+   "dep_hash": "804017ce68a8",
+   "verified_at": "2026-11-05T19:22:25"
+  },
+  "INS-033": {
+   "technical": "pass",
+   "page": 2,
+   "cell": [
+    1,
+    1
+   ],
+   "photos": 7,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-033.png",
+   "compare": "previews\\structure\\INS-033.png",
+   "dep_hash": "9001d8615109",
+   "verified_at": "2026-11-05T19:22:26"
+  },
+  "INS-035": {
+   "technical": "pass",
+   "status": "ready",
+   "page": 2,
+   "cell": [
+    1,
+    2
+   ],
+   "photos": 9,
+   "deps": [
+    "ground",
+    "ground_grid",
+    "ground_fg"
+   ],
+   "visual": "pass",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "structure_png": "previews\\structure\\INS-035.png",
+   "compare": "previews\\structure\\INS-035.png",
+   "dep_hash": "1a130138ef64",
+   "verified_at": "2026-11-05T19:22:27"
+  },
+  "INS-037": {
+   "technical": "pass",
+   "page": 2,
+   "cell": [
+    2,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-037.png",
+   "compare": "previews\\structure\\INS-037.png",
+   "dep_hash": "1f2a8c793df4",
+   "verified_at": "2026-11-05T19:22:27"
+  },
+  "INS-048": {
+   "technical": "pass",
+   "page": 2,
+   "cell": [
+    0,
+    2
+   ],
+   "photos": 3,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-048.png",
+   "compare": "previews\\structure\\INS-048.png",
+   "dep_hash": "a070e8ef7568",
+   "verified_at": "2026-11-05T19:22:29"
+  },
+  "INS-049": {
+   "technical": "pass",
+   "page": 3,
+   "cell": [
+    1,
+    0
+   ],
+   "photos": 3,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-049.png",
+   "compare": "previews\\structure\\INS-049.png",
+   "dep_hash": "74aeba1477f6",
+   "verified_at": "2026-11-05T19:22:29"
+  },
+  "INS-050": {
+   "technical": "pass",
+   "page": 3,
+   "cell": [
+    1,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-050.png",
+   "compare": "previews\\structure\\INS-050.png",
+   "dep_hash": "4ea4d1da09df",
+   "verified_at": "2026-11-05T19:22:30"
+  },
+  "INS-052": {
+   "technical": "pass",
+   "page": 3,
+   "cell": [
+    1,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-052.png",
+   "compare": "previews\\structure\\INS-052.png",
+   "dep_hash": "6bdf47afe886",
+   "verified_at": "2026-11-05T19:22:30"
+  },
+  "INS-053": {
+   "technical": "pass",
+   "page": 3,
+   "cell": [
+    2,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-053.png",
+   "compare": "previews\\structure\\INS-053.png",
+   "dep_hash": "b912cd014f2a",
+   "verified_at": "2026-11-05T19:22:30"
+  },
+  "INS-054": {
+   "technical": "pass",
+   "page": 3,
+   "cell": [
+    2,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-054.png",
+   "compare": "previews\\structure\\INS-054.png",
+   "dep_hash": "0a85d260fd57",
+   "verified_at": "2026-11-05T19:22:30"
+  },
+  "INS-055": {
+   "technical": "pass",
+   "page": 3,
+   "cell": [
+    2,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-055.png",
+   "compare": "previews\\structure\\INS-055.png",
+   "dep_hash": "46ec8cee9c2f",
+   "verified_at": "2026-11-05T19:22:30"
+  },
+  "INS-058": {
+   "technical": "pass",
+   "page": 4,
+   "cell": [
+    0,
+    2
+   ],
+   "photos": 7,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-058.png",
+   "compare": "previews\\structure\\INS-058.png",
+   "dep_hash": "81087a9fe13e",
+   "verified_at": "2026-11-05T19:22:31"
+  },
+  "INS-059": {
+   "technical": "pass",
+   "page": 4,
+   "cell": [
+    1,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-059.png",
+   "compare": "previews\\structure\\INS-059.png",
+   "dep_hash": "6931f71b1f7c",
+   "verified_at": "2026-11-05T19:22:31"
+  },
+  "INS-060": {
+   "technical": "pass",
+   "page": 4,
+   "cell": [
+    1,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-060.png",
+   "compare": "previews\\structure\\INS-060.png",
+   "dep_hash": "d6e3c522015f",
+   "verified_at": "2026-11-05T19:22:32"
+  },
+  "INS-063": {
+   "technical": "pass",
+   "page": 4,
+   "cell": [
+    2,
+    0
+   ],
+   "photos": 2,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-063.png",
+   "compare": "previews\\structure\\INS-063.png",
+   "dep_hash": "382776408834",
+   "verified_at": "2026-11-05T19:22:32"
+  },
+  "INS-075": {
+   "technical": "pass",
+   "page": 5,
+   "cell": [
+    2,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-075.png",
+   "compare": "previews\\structure\\INS-075.png",
+   "dep_hash": "40f8ca50ff67",
+   "verified_at": "2026-11-05T19:22:35"
+  },
+  "INS-082": {
+   "technical": "pass",
+   "page": 6,
+   "cell": [
+    0,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-082.png",
+   "compare": "previews\\structure\\INS-082.png",
+   "dep_hash": "f922786308fc",
+   "verified_at": "2026-11-05T19:22:37"
+  },
+  "INS-086": {
+   "technical": "pass",
+   "page": 6,
+   "cell": [
+    1,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-086.png",
+   "compare": "previews\\structure\\INS-086.png",
+   "dep_hash": "f0da3a58b077",
+   "verified_at": "2026-11-05T19:22:37"
+  },
+  "INS-087": {
+   "technical": "pass",
+   "page": 6,
+   "cell": [
+    1,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-087.png",
+   "compare": "previews\\structure\\INS-087.png",
+   "dep_hash": "b5534a8f83c3",
+   "verified_at": "2026-11-05T19:22:38"
+  },
+  "INS-088": {
+   "technical": "pass",
+   "page": 6,
+   "cell": [
+    2,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-088.png",
+   "compare": "previews\\structure\\INS-088.png",
+   "dep_hash": "919c382ce31f",
+   "verified_at": "2026-11-05T19:22:38"
+  },
+  "INS-089": {
+   "technical": "pass",
+   "page": 1,
+   "cell": [
+    1,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-089.png",
+   "compare": "previews\\structure\\INS-089.png",
+   "dep_hash": "c6e6dcc9e94b",
+   "verified_at": "2026-11-05T19:22:38"
+  },
+  "INS-095": {
+   "technical": "pass",
+   "page": 7,
+   "cell": [
+    0,
+    0
+   ],
+   "photos": 1,
+   "deps": [
+    "G23:optional"
+   ],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-095.png",
+   "compare": "previews\\structure\\INS-095.png",
+   "dep_hash": "06887a7de956",
+   "verified_at": "2026-11-05T19:22:39"
+  },
+  "INS-103": {
+   "technical": "pass",
+   "page": 1,
+   "cell": [
+    1,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-103.png",
+   "compare": "previews\\structure\\INS-103.png",
+   "dep_hash": "0f7baadaf501",
+   "verified_at": "2026-11-05T19:22:40"
+  },
+  "INS-108": {
+   "technical": "pass",
+   "page": 7,
+   "cell": [
+    1,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-108.png",
+   "compare": "previews\\structure\\INS-108.png",
+   "dep_hash": "b4e112a97ef1",
+   "verified_at": "2026-11-05T19:22:41"
+  },
+  "INS-109": {
+   "technical": "pass",
+   "page": 7,
+   "cell": [
+    2,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-109.png",
+   "compare": "previews\\structure\\INS-109.png",
+   "dep_hash": "ba5bb456113c",
+   "verified_at": "2026-11-05T19:22:41"
+  },
+  "INS-110": {
+   "technical": "pass",
+   "page": 7,
+   "cell": [
+    2,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-110.png",
+   "compare": "previews\\structure\\INS-110.png",
+   "dep_hash": "fb1964cf08ef",
+   "verified_at": "2026-11-05T19:22:41"
+  },
+  "INS-127": {
+   "technical": "pass",
+   "page": 9,
+   "cell": [
+    1,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-127.png",
+   "compare": "previews\\structure\\INS-127.png",
+   "dep_hash": "5901afff1430",
+   "verified_at": "2026-11-05T19:22:43"
+  },
+  "INS-128": {
+   "technical": "pass",
+   "page": 9,
+   "cell": [
+    1,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-128.png",
+   "compare": "previews\\structure\\INS-128.png",
+   "dep_hash": "2fc0abd5a1c0",
+   "verified_at": "2026-11-05T19:22:43"
+  },
+  "INS-140": {
+   "technical": "pass",
+   "page": 1,
+   "cell": [
+    2,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-140.png",
+   "compare": "previews\\structure\\INS-140.png",
+   "dep_hash": "0d4d5db74b4e",
+   "verified_at": "2026-11-05T19:22:46"
+  },
+  "INS-168": {
+   "technical": "pass",
+   "page": 11,
+   "cell": [
+    2,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-168.png",
+   "compare": "previews\\structure\\INS-168.png",
+   "dep_hash": "10e5ccd3a6bf",
+   "verified_at": "2026-11-05T19:22:49"
+  },
+  "INS-173": {
+   "technical": "pass",
+   "page": 1,
+   "cell": [
+    2,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-173.png",
+   "compare": "previews\\structure\\INS-173.png",
+   "dep_hash": "4150d24f51f0",
+   "verified_at": "2026-11-05T19:22:50"
+  },
+  "INS-194": {
+   "technical": "pass",
+   "page": 13,
+   "cell": [
+    0,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-194.png",
+   "compare": "previews\\structure\\INS-194.png",
+   "dep_hash": "17145115af6f",
+   "verified_at": "2026-11-05T19:22:52"
+  },
+  "INS-203": {
+   "technical": "pass",
+   "page": 13,
+   "cell": [
+    1,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-203.png",
+   "compare": "previews\\structure\\INS-203.png",
+   "dep_hash": "3ae51a583bee",
+   "verified_at": "2026-11-05T19:22:53"
+  },
+  "INS-204": {
+   "technical": "pass",
+   "page": 13,
+   "cell": [
+    1,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-204.png",
+   "compare": "previews\\structure\\INS-204.png",
+   "dep_hash": "1f3a77a9feef",
+   "verified_at": "2026-11-05T19:22:54"
+  },
+  "INS-205": {
+   "technical": "pass",
+   "page": 13,
+   "cell": [
+    2,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-205.png",
+   "compare": "previews\\structure\\INS-205.png",
+   "dep_hash": "fca26230055c",
+   "verified_at": "2026-11-05T19:22:54"
+  },
+  "INS-206": {
+   "technical": "pass",
+   "page": 13,
+   "cell": [
+    2,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-206.png",
+   "compare": "previews\\structure\\INS-206.png",
+   "dep_hash": "b5092e15a0a1",
+   "verified_at": "2026-11-05T19:22:54"
+  },
+  "INS-207": {
+   "technical": "pass",
+   "page": 13,
+   "cell": [
+    2,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-207.png",
+   "compare": "previews\\structure\\INS-207.png",
+   "dep_hash": "f62bad72acfc",
+   "verified_at": "2026-11-05T19:22:54"
+  },
+  "INS-208": {
+   "technical": "pass",
+   "page": 14,
+   "cell": [
+    0,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-208.png",
+   "compare": "previews\\structure\\INS-208.png",
+   "dep_hash": "a6b60c31eaec",
+   "verified_at": "2026-11-05T19:22:54"
+  },
+  "INS-209": {
+   "technical": "pass",
+   "page": 14,
+   "cell": [
+    0,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-209.png",
+   "compare": "previews\\structure\\INS-209.png",
+   "dep_hash": "00d4a6b70c2f",
+   "verified_at": "2026-11-05T19:22:55"
+  },
+  "INS-219": {
+   "technical": "pass",
+   "status": "ready",
+   "page": 2,
+   "cell": [
+    0,
+    0
+   ],
+   "photos": 1,
+   "deps": [
+    "G12",
+    "G12_screen",
+    "G12_fg"
+   ],
+   "visual": "pass",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "structure_png": "previews\\structure\\INS-219.png",
+   "compare": "previews\\structure\\INS-219.png",
+   "dep_hash": "f4c7ff93be4d",
+   "verified_at": "2026-11-05T19:22:57"
+  },
+  "INS-220": {
+   "technical": "pass",
+   "page": 14,
+   "cell": [
+    2,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-220.png",
+   "compare": "previews\\structure\\INS-220.png",
+   "dep_hash": "a602d1b46f58",
+   "verified_at": "2026-11-05T19:22:57"
+  },
+  "INS-042": {
+   "technical": "pass",
+   "page": 3,
+   "cell": [
+    0,
+    0
+   ],
+   "photos": 2,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-042.png",
+   "compare": "previews\\structure\\INS-042.png",
+   "dep_hash": "7a6e4f0145b4",
+   "verified_at": "2026-11-05T19:22:28"
+  },
+  "INS-056": {
+   "technical": "pass",
+   "page": 4,
+   "cell": [
+    0,
+    0
+   ],
+   "photos": 2,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-056.png",
+   "compare": "previews\\structure\\INS-056.png",
+   "dep_hash": "091fde9d7e0f",
+   "verified_at": "2026-11-05T19:22:31"
+  },
+  "INS-057": {
+   "technical": "pass",
+   "page": 4,
+   "cell": [
+    0,
+    1
+   ],
+   "photos": 2,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-057.png",
+   "compare": "previews\\structure\\INS-057.png",
+   "dep_hash": "b2368510057d",
+   "verified_at": "2026-11-05T19:22:31"
+  },
+  "INS-062": {
+   "technical": "pass",
+   "page": 4,
+   "cell": [
+    1,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-062.png",
+   "compare": "previews\\structure\\INS-062.png",
+   "dep_hash": "391faf1d89ae",
+   "verified_at": "2026-11-05T19:22:32"
+  },
+  "INS-065": {
+   "technical": "pass",
+   "page": 4,
+   "cell": [
+    2,
+    2
+   ],
+   "photos": 2,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-065.png",
+   "compare": "previews\\structure\\INS-065.png",
+   "dep_hash": "08b66f03a5c2",
+   "verified_at": "2026-11-05T19:22:33"
+  },
+  "INS-070": {
+   "technical": "pass",
+   "page": 1,
+   "cell": [
+    0,
+    1
+   ],
+   "photos": 3,
+   "deps": [
+    "G49"
+   ],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-070.png",
+   "compare": "previews\\structure\\INS-070.png",
+   "dep_hash": "b1335e18f1dd",
+   "verified_at": "2026-11-05T19:22:34"
+  },
+  "INS-083": {
+   "technical": "pass",
+   "page": 6,
+   "cell": [
+    0,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-083.png",
+   "compare": "previews\\structure\\INS-083.png",
+   "dep_hash": "4172d38d4174",
+   "verified_at": "2026-11-05T19:22:37"
+  },
+  "INS-084": {
+   "technical": "pass",
+   "page": 6,
+   "cell": [
+    1,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-084.png",
+   "compare": "previews\\structure\\INS-084.png",
+   "dep_hash": "917014f2e6da",
+   "verified_at": "2026-11-05T19:22:37"
+  },
+  "INS-104": {
+   "technical": "pass",
+   "page": 7,
+   "cell": [
+    0,
+    2
+   ],
+   "photos": 2,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-104.png",
+   "compare": "previews\\structure\\INS-104.png",
+   "dep_hash": "8280064fb7c0",
+   "verified_at": "2026-11-05T19:22:40"
+  },
+  "INS-107": {
+   "technical": "pass",
+   "page": 7,
+   "cell": [
+    1,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-107.png",
+   "compare": "previews\\structure\\INS-107.png",
+   "dep_hash": "581555362ecb",
+   "verified_at": "2026-11-05T19:22:40"
+  },
+  "INS-112": {
+   "technical": "pass",
+   "page": 7,
+   "cell": [
+    2,
+    2
+   ],
+   "photos": 2,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-112.png",
+   "compare": "previews\\structure\\INS-112.png",
+   "dep_hash": "ff3d7a9664dc",
+   "verified_at": "2026-11-05T19:22:41"
+  },
+  "INS-113": {
+   "technical": "pass",
+   "page": 8,
+   "cell": [
+    0,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-113.png",
+   "compare": "previews\\structure\\INS-113.png",
+   "dep_hash": "f1a9c979d0ce",
+   "verified_at": "2026-11-05T19:22:41"
+  },
+  "INS-114": {
+   "technical": "pass",
+   "page": 8,
+   "cell": [
+    0,
+    1
+   ],
+   "photos": 3,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-114.png",
+   "compare": "previews\\structure\\INS-114.png",
+   "dep_hash": "86186c3d5b28",
+   "verified_at": "2026-11-05T19:22:42"
+  },
+  "INS-118": {
+   "technical": "pass",
+   "page": 8,
+   "cell": [
+    1,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-118.png",
+   "compare": "previews\\structure\\INS-118.png",
+   "dep_hash": "6c69b71ead54",
+   "verified_at": "2026-11-05T19:22:42"
+  },
+  "INS-120": {
+   "technical": "pass",
+   "page": 8,
+   "cell": [
+    2,
+    1
+   ],
+   "photos": 2,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-120.png",
+   "compare": "previews\\structure\\INS-120.png",
+   "dep_hash": "937d9b890abd",
+   "verified_at": "2026-11-05T19:22:42"
+  },
+  "INS-122": {
+   "technical": "pass",
+   "page": 8,
+   "cell": [
+    2,
+    2
+   ],
+   "photos": 2,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-122.png",
+   "compare": "previews\\structure\\INS-122.png",
+   "dep_hash": "cc4c270aa61b",
+   "verified_at": "2026-11-05T19:22:42"
+  },
+  "INS-124": {
+   "technical": "pass",
+   "page": 9,
+   "cell": [
+    0,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-124.png",
+   "compare": "previews\\structure\\INS-124.png",
+   "dep_hash": "a570b3e84277",
+   "verified_at": "2026-11-05T19:22:43"
+  },
+  "INS-125": {
+   "technical": "pass",
+   "page": 9,
+   "cell": [
+    0,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-125.png",
+   "compare": "previews\\structure\\INS-125.png",
+   "dep_hash": "7d5d1fc54a5e",
+   "verified_at": "2026-11-05T19:22:43"
+  },
+  "INS-134": {
+   "technical": "pass",
+   "page": 9,
+   "cell": [
+    2,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-134.png",
+   "compare": "previews\\structure\\INS-134.png",
+   "dep_hash": "4813c246e5db",
+   "verified_at": "2026-11-05T19:22:44"
+  },
+  "INS-135": {
+   "technical": "pass",
+   "page": 10,
+   "cell": [
+    0,
+    0
+   ],
+   "photos": 6,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-135.png",
+   "compare": "previews\\structure\\INS-135.png",
+   "dep_hash": "2c7eddb623b7",
+   "verified_at": "2026-11-05T19:22:44"
+  },
+  "INS-137": {
+   "technical": "pass",
+   "page": 10,
+   "cell": [
+    0,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-137.png",
+   "compare": "previews\\structure\\INS-137.png",
+   "dep_hash": "5265b97536ab",
+   "verified_at": "2026-11-05T19:22:44"
+  },
+  "INS-139": {
+   "technical": "pass",
+   "page": 10,
+   "cell": [
+    1,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-139.png",
+   "compare": "previews\\structure\\INS-139.png",
+   "dep_hash": "57a657ed13dd",
+   "verified_at": "2026-11-05T19:22:45"
+  },
+  "INS-142": {
+   "technical": "pass",
+   "page": 10,
+   "cell": [
+    1,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-142.png",
+   "compare": "previews\\structure\\INS-142.png",
+   "dep_hash": "17311c43ec52",
+   "verified_at": "2026-11-05T19:22:46"
+  },
+  "INS-143": {
+   "technical": "pass",
+   "page": 10,
+   "cell": [
+    1,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-143.png",
+   "compare": "previews\\structure\\INS-143.png",
+   "dep_hash": "ef8388cb5452",
+   "verified_at": "2026-11-05T19:22:46"
+  },
+  "INS-145": {
+   "technical": "pass",
+   "page": 10,
+   "cell": [
+    2,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-145.png",
+   "compare": "previews\\structure\\INS-145.png",
+   "dep_hash": "1d80e4f16816",
+   "verified_at": "2026-11-05T19:22:47"
+  },
+  "INS-147": {
+   "technical": "pass",
+   "page": 11,
+   "cell": [
+    0,
+    0
+   ],
+   "photos": 2,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-147.png",
+   "compare": "previews\\structure\\INS-147.png",
+   "dep_hash": "6fe5d80993f1",
+   "verified_at": "2026-11-05T19:22:47"
+  },
+  "INS-150": {
+   "technical": "pass",
+   "page": 11,
+   "cell": [
+    0,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-150.png",
+   "compare": "previews\\structure\\INS-150.png",
+   "dep_hash": "ae096a5c9b57",
+   "verified_at": "2026-11-05T19:22:48"
+  },
+  "INS-162": {
+   "technical": "pass",
+   "page": 11,
+   "cell": [
+    1,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-162.png",
+   "compare": "previews\\structure\\INS-162.png",
+   "dep_hash": "25eca8d45c41",
+   "verified_at": "2026-11-05T19:22:48"
+  },
+  "INS-163": {
+   "technical": "pass",
+   "page": 11,
+   "cell": [
+    1,
+    1
+   ],
+   "photos": 2,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-163.png",
+   "compare": "previews\\structure\\INS-163.png",
+   "dep_hash": "c43714d34fc9",
+   "verified_at": "2026-11-05T19:22:48"
+  },
+  "INS-164": {
+   "technical": "pass",
+   "page": 11,
+   "cell": [
+    1,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-164.png",
+   "compare": "previews\\structure\\INS-164.png",
+   "dep_hash": "8dbc961f47f1",
+   "verified_at": "2026-11-05T19:22:48"
+  },
+  "INS-166": {
+   "technical": "pass",
+   "page": 11,
+   "cell": [
+    2,
+    0
+   ],
+   "photos": 2,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-166.png",
+   "compare": "previews\\structure\\INS-166.png",
+   "dep_hash": "1fae1a854fde",
+   "verified_at": "2026-11-05T19:22:49"
+  },
+  "INS-167": {
+   "technical": "pass",
+   "page": 11,
+   "cell": [
+    2,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-167.png",
+   "compare": "previews\\structure\\INS-167.png",
+   "dep_hash": "7ffc1f5bfe2a",
+   "verified_at": "2026-11-05T19:22:49"
+  },
+  "INS-171": {
+   "technical": "pass",
+   "page": 12,
+   "cell": [
+    0,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-171.png",
+   "compare": "previews\\structure\\INS-171.png",
+   "dep_hash": "a2bc8f25b1a0",
+   "verified_at": "2026-11-05T19:22:49"
+  },
+  "INS-177": {
+   "technical": "pass",
+   "page": 12,
+   "cell": [
+    1,
+    0
+   ],
+   "photos": 2,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-177.png",
+   "compare": "previews\\structure\\INS-177.png",
+   "dep_hash": "967992632d7d",
+   "verified_at": "2026-11-05T19:22:51"
+  },
+  "INS-191": {
+   "technical": "pass",
+   "page": 12,
+   "cell": [
+    2,
+    0
+   ],
+   "photos": 9,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-191.png",
+   "compare": "previews\\structure\\INS-191.png",
+   "dep_hash": "4f1d7e3003d0",
+   "verified_at": "2026-11-05T19:22:52"
+  },
+  "INS-193": {
+   "technical": "pass",
+   "page": 12,
+   "cell": [
+    2,
+    2
+   ],
+   "photos": 4,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-193.png",
+   "compare": "previews\\structure\\INS-193.png",
+   "dep_hash": "3241b9c65a11",
+   "verified_at": "2026-11-05T19:22:52"
+  },
+  "INS-195": {
+   "technical": "pass",
+   "page": 13,
+   "cell": [
+    0,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-195.png",
+   "compare": "previews\\structure\\INS-195.png",
+   "dep_hash": "5d0955a53ac7",
+   "verified_at": "2026-11-05T19:22:53"
+  },
+  "INS-196": {
+   "technical": "pass",
+   "page": 13,
+   "cell": [
+    0,
+    2
+   ],
+   "photos": 3,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-196.png",
+   "compare": "previews\\structure\\INS-196.png",
+   "dep_hash": "c806c1a5d9eb",
+   "verified_at": "2026-11-05T19:22:53"
+  },
+  "INS-221": {
+   "technical": "pass",
+   "page": 14,
+   "cell": [
+    2,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "visual": "pass",
+   "status": "ready",
+   "visual_note": "compared side by side with references/crops (structure test photos) on 2026-11-05; real-photo fit not yet proven",
+   "visual_at": "2026-11-05T17:40:14",
+   "structure_png": "previews\\structure\\INS-221.png",
+   "compare": "previews\\structure\\INS-221.png",
+   "dep_hash": "b4dfad4f9803",
+   "verified_at": "2026-11-05T19:22:57"
+  },
+  "INS-066": {
+   "page": 1,
+   "cell": [
+    0,
+    0
+   ],
+   "photos": 7,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-078": {
+   "page": 1,
+   "cell": [
+    0,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-106": {
+   "page": 1,
+   "cell": [
+    1,
+    2
+   ],
+   "photos": 8,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-149": {
+   "page": 1,
+   "cell": [
+    2,
+    1
+   ],
+   "photos": 1,
+   "deps": [
+    "G25"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-149.png",
+   "compare": "previews\\structure\\INS-149.png",
+   "dep_hash": "49ae440a58a1",
+   "verified_at": "2026-11-05T19:22:48"
+  },
+  "INS-132": {
+   "page": 2,
+   "cell": [
+    0,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-036": {
+   "page": 2,
+   "cell": [
+    2,
+    0
+   ],
+   "photos": 7,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-038": {
+   "page": 2,
+   "cell": [
+    2,
+    2
+   ],
+   "photos": 2,
+   "deps": [
+    "dual_phone"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-038.png",
+   "compare": "previews\\structure\\INS-038.png",
+   "dep_hash": "e3a7af7161a2",
+   "verified_at": "2026-11-05T19:22:28"
+  },
+  "INS-043": {
+   "page": 3,
+   "cell": [
+    0,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-047": {
+   "page": 3,
+   "cell": [
+    0,
+    2
+   ],
+   "photos": 6,
+   "deps": [
+    "G26"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-047.png",
+   "compare": "previews\\structure\\INS-047.png",
+   "dep_hash": "5080b614a9a2",
+   "verified_at": "2026-11-05T19:22:29"
+  },
+  "INS-064": {
+   "page": 4,
+   "cell": [
+    2,
+    1
+   ],
+   "photos": 4,
+   "deps": [
+    "G15"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-064.png",
+   "compare": "previews\\structure\\INS-064.png",
+   "dep_hash": "a9c6c30cc119",
+   "verified_at": "2026-11-05T19:22:33"
+  },
+  "INS-067": {
+   "page": 5,
+   "cell": [
+    0,
+    0
+   ],
+   "photos": 4,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-068": {
+   "page": 5,
+   "cell": [
+    0,
+    1
+   ],
+   "photos": 8,
+   "deps": [
+    "G20"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-068.png",
+   "compare": "previews\\structure\\INS-068.png",
+   "dep_hash": "c7ec4fd6253e",
+   "verified_at": "2026-11-05T19:22:34"
+  },
+  "INS-069": {
+   "page": 5,
+   "cell": [
+    0,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-072": {
+   "page": 5,
+   "cell": [
+    1,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-073": {
+   "page": 5,
+   "cell": [
+    1,
+    1
+   ],
+   "photos": 4,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-074": {
+   "page": 5,
+   "cell": [
+    1,
+    2
+   ],
+   "photos": 2,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-077": {
+   "page": 5,
+   "cell": [
+    2,
+    1
+   ],
+   "photos": 1,
+   "deps": [
+    "G21"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-077.png",
+   "compare": "previews\\structure\\INS-077.png",
+   "dep_hash": "636e0e70f0f3",
+   "verified_at": "2026-11-05T19:22:35"
+  },
+  "INS-079": {
+   "page": 5,
+   "cell": [
+    2,
+    2
+   ],
+   "photos": 1,
+   "deps": [
+    "G11"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-079.png",
+   "compare": "previews\\structure\\INS-079.png",
+   "dep_hash": "489de3fc0c99",
+   "verified_at": "2026-11-05T19:22:36"
+  },
+  "INS-080": {
+   "page": 6,
+   "cell": [
+    0,
+    0
+   ],
+   "photos": 3,
+   "deps": [
+    "G50"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-080.png",
+   "compare": "previews\\structure\\INS-080.png",
+   "dep_hash": "1e87f5bee95a",
+   "verified_at": "2026-11-05T19:22:37"
+  },
+  "INS-092": {
+   "page": 6,
+   "cell": [
+    2,
+    1
+   ],
+   "photos": 6,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-093": {
+   "page": 6,
+   "cell": [
+    2,
+    2
+   ],
+   "photos": 4,
+   "deps": [
+    "G22"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-093.png",
+   "compare": "previews\\structure\\INS-093.png",
+   "dep_hash": "7416221f7b5a",
+   "verified_at": "2026-11-05T19:22:39"
+  },
+  "INS-102": {
+   "page": 7,
+   "cell": [
+    0,
+    1
+   ],
+   "photos": 1,
+   "deps": [
+    "G46"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-102.png",
+   "compare": "previews\\structure\\INS-102.png",
+   "dep_hash": "0a083c0dcfa8",
+   "verified_at": "2026-11-05T19:22:39"
+  },
+  "INS-105": {
+   "page": 7,
+   "cell": [
+    1,
+    0
+   ],
+   "photos": 4,
+   "deps": [
+    "G46"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-105.png",
+   "compare": "previews\\structure\\INS-105.png",
+   "dep_hash": "edd838c2f50f",
+   "verified_at": "2026-11-05T19:22:40"
+  },
+  "INS-115": {
+   "page": 8,
+   "cell": [
+    0,
+    2
+   ],
+   "photos": 6,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-116": {
+   "page": 8,
+   "cell": [
+    1,
+    0
+   ],
+   "photos": 1,
+   "deps": [
+    "G23:optional"
+   ],
+   "status": "pending",
+   "note": "needs generated master(s): G23:optional"
+  },
+  "INS-117": {
+   "page": 8,
+   "cell": [
+    1,
+    1
+   ],
+   "photos": 3,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-119": {
+   "page": 8,
+   "cell": [
+    2,
+    0
+   ],
+   "photos": 2,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-123": {
+   "page": 9,
+   "cell": [
+    0,
+    0
+   ],
+   "photos": 3,
+   "deps": [
+    "G46"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-123.png",
+   "compare": "previews\\structure\\INS-123.png",
+   "dep_hash": "f3146be17525",
+   "verified_at": "2026-11-05T19:22:43"
+  },
+  "INS-129": {
+   "page": 9,
+   "cell": [
+    1,
+    2
+   ],
+   "photos": 6,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-130": {
+   "page": 9,
+   "cell": [
+    2,
+    0
+   ],
+   "photos": 4,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-133": {
+   "page": 9,
+   "cell": [
+    2,
+    1
+   ],
+   "photos": 2,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-138": {
+   "page": 10,
+   "cell": [
+    0,
+    2
+   ],
+   "photos": 2,
+   "deps": [
+    "three_band",
+    "G23:optional"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-138.png",
+   "compare": "previews\\structure\\INS-138.png",
+   "dep_hash": "7e271f018deb",
+   "verified_at": "2026-11-05T19:22:45"
+  },
+  "INS-144": {
+   "page": 10,
+   "cell": [
+    2,
+    0
+   ],
+   "photos": 1,
+   "deps": [
+    "G23:optional"
+   ],
+   "status": "ready",
+   "note": "compared with reference crop 2026-11-05 (taste-fit batch)",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-144.png",
+   "compare": "previews\\structure\\INS-144.png",
+   "dep_hash": "5dae9aaefb51",
+   "verified_at": "2026-11-05T19:22:46"
+  },
+  "INS-146": {
+   "page": 10,
+   "cell": [
+    2,
+    2
+   ],
+   "photos": 1,
+   "deps": [
+    "G23:optional"
+   ],
+   "status": "ready",
+   "note": "compared with reference crop 2026-11-05 (taste-fit batch)",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-146.png",
+   "compare": "previews\\structure\\INS-146.png",
+   "dep_hash": "db2226be50d8",
+   "verified_at": "2026-11-05T19:22:47"
+  },
+  "INS-148": {
+   "page": 11,
+   "cell": [
+    0,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "status": "pending"
+  },
+  "INS-172": {
+   "page": 12,
+   "cell": [
+    0,
+    1
+   ],
+   "photos": 1,
+   "deps": [
+    "G23:optional"
+   ],
+   "status": "ready",
+   "note": "compared with reference crop 2026-11-05 (taste-fit batch)",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-172.png",
+   "compare": "previews\\structure\\INS-172.png",
+   "dep_hash": "bd65a2d3f9fb",
+   "verified_at": "2026-11-05T19:22:50"
+  },
+  "INS-174": {
+   "page": 12,
+   "cell": [
+    0,
+    2
+   ],
+   "photos": 4,
+   "deps": [
+    "G27"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-174.png",
+   "compare": "previews\\structure\\INS-174.png",
+   "dep_hash": "7ab80841e5eb",
+   "verified_at": "2026-11-05T19:22:51"
+  },
+  "INS-178": {
+   "page": 12,
+   "cell": [
+    1,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "status": "ready",
+   "technical": "pass",
+   "visual": "pass",
+   "note": "compared with reference crop 2026-11-05 (taste-fit batch)",
+   "structure_png": "previews\\structure\\INS-178.png",
+   "compare": "previews\\structure\\INS-178.png",
+   "dep_hash": "186c84797904",
+   "verified_at": "2026-11-05T19:22:51"
+  },
+  "INS-179": {
+   "page": 12,
+   "cell": [
+    1,
+    2
+   ],
+   "photos": 1,
+   "deps": [],
+   "status": "ready",
+   "technical": "pass",
+   "visual": "pass",
+   "note": "compared with reference crop 2026-11-05 (taste-fit batch)",
+   "structure_png": "previews\\structure\\INS-179.png",
+   "compare": "previews\\structure\\INS-179.png",
+   "dep_hash": "334bcabff969",
+   "verified_at": "2026-11-05T19:22:51"
+  },
+  "INS-192": {
+   "page": 12,
+   "cell": [
+    2,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "status": "ready",
+   "technical": "pass",
+   "visual": "pass",
+   "note": "compared with reference crop 2026-11-05 (taste-fit batch)",
+   "structure_png": "previews\\structure\\INS-192.png",
+   "compare": "previews\\structure\\INS-192.png",
+   "dep_hash": "fa36860b8f19",
+   "verified_at": "2026-11-05T19:22:52"
+  },
+  "INS-197": {
+   "page": 13,
+   "cell": [
+    1,
+    0
+   ],
+   "photos": 1,
+   "deps": [],
+   "status": "ready",
+   "technical": "pass",
+   "visual": "pass",
+   "note": "compared with reference crop 2026-11-05 (taste-fit batch)",
+   "structure_png": "previews\\structure\\INS-197.png",
+   "compare": "previews\\structure\\INS-197.png",
+   "dep_hash": "58877c23fa11",
+   "verified_at": "2026-11-05T19:22:53"
+  },
+  "INS-211": {
+   "page": 14,
+   "cell": [
+    0,
+    2
+   ],
+   "photos": 1,
+   "deps": [
+    "G24"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-211.png",
+   "compare": "previews\\structure\\INS-211.png",
+   "dep_hash": "cb81fe890b32",
+   "verified_at": "2026-11-05T19:22:55"
+  },
+  "INS-212": {
+   "page": 14,
+   "cell": [
+    1,
+    0
+   ],
+   "photos": 1,
+   "deps": [
+    "mask212"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-212.png",
+   "compare": "previews\\structure\\INS-212.png",
+   "dep_hash": "0995ecba0c50",
+   "verified_at": "2026-11-05T19:22:55"
+  },
+  "INS-216": {
+   "page": 14,
+   "cell": [
+    1,
+    1
+   ],
+   "photos": 1,
+   "deps": [],
+   "status": "ready",
+   "technical": "pass",
+   "visual": "pass",
+   "note": "compared with reference crop 2026-11-05 (taste-fit batch)",
+   "structure_png": "previews\\structure\\INS-216.png",
+   "compare": "previews\\structure\\INS-216.png",
+   "dep_hash": "6fd7c03e2b4c",
+   "verified_at": "2026-11-05T19:22:55"
+  },
+  "INS-217": {
+   "page": 14,
+   "cell": [
+    1,
+    2
+   ],
+   "photos": 1,
+   "deps": [
+    "G24"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-217.png",
+   "compare": "previews\\structure\\INS-217.png",
+   "dep_hash": "02808c107389",
+   "verified_at": "2026-11-05T19:22:56"
+  },
+  "INS-218": {
+   "page": 14,
+   "cell": [
+    2,
+    0
+   ],
+   "photos": 1,
+   "deps": [
+    "mask218"
+   ],
+   "status": "ready",
+   "note": "master-based layout, compared with reference 2026-11-06",
+   "technical": "pass",
+   "visual": "pass",
+   "structure_png": "previews\\structure\\INS-218.png",
+   "compare": "previews\\structure\\INS-218.png",
+   "dep_hash": "5384837bea4b",
+   "verified_at": "2026-11-05T19:22:56"
+  }
+ },
+ "installed": true,
+ "base_ready": false,
+ "next_action": "All masters generated. Remaining pending (no masters needed): 036 043 066 067 069 072 073 074 078 092 106 115 116 117 119 129 130 132 133 148. After adding templates: verify --sheet, look, status.py set visual=pass, build_overlays.py <ids>.",
+ "updated_at": "2026-11-05T19:00:05",
+ "masters": {
+  "source": "AI-generated, see effects.json masters"
+ },
+ "last_verify": {
+  "at": "2026-11-05T19:22:58",
+  "ids": [
+   "INS-032",
+   "INS-033",
+   "INS-035",
+   "INS-037",
+   "INS-038",
+   "INS-042",
+   "INS-047",
+   "INS-048",
+   "INS-049",
+   "INS-050",
+   "INS-052",
+   "INS-053",
+   "INS-054",
+   "INS-055",
+   "INS-056",
+   "INS-057",
+   "INS-058",
+   "INS-059",
+   "INS-060",
+   "INS-062",
+   "INS-063",
+   "INS-064",
+   "INS-065",
+   "INS-068",
+   "INS-070",
+   "INS-075",
+   "INS-077",
+   "INS-079",
+   "INS-080",
+   "INS-082",
+   "INS-083",
+   "INS-084",
+   "INS-086",
+   "INS-087",
+   "INS-088",
+   "INS-089",
+   "INS-093",
+   "INS-095",
+   "INS-102",
+   "INS-103",
+   "INS-104",
+   "INS-105",
+   "INS-107",
+   "INS-108",
+   "INS-109",
+   "INS-110",
+   "INS-112",
+   "INS-113",
+   "INS-114",
+   "INS-118",
+   "INS-120",
+   "INS-122",
+   "INS-123",
+   "INS-124",
+   "INS-125",
+   "INS-127",
+   "INS-128",
+   "INS-134",
+   "INS-135",
+   "INS-137",
+   "INS-138",
+   "INS-139",
+   "INS-140",
+   "INS-142",
+   "INS-143",
+   "INS-144",
+   "INS-145",
+   "INS-146",
+   "INS-147",
+   "INS-149",
+   "INS-150",
+   "INS-162",
+   "INS-163",
+   "INS-164",
+   "INS-166",
+   "INS-167",
+   "INS-168",
+   "INS-171",
+   "INS-172",
+   "INS-173",
+   "INS-174",
+   "INS-177",
+   "INS-178",
+   "INS-179",
+   "INS-191",
+   "INS-192",
+   "INS-193",
+   "INS-194",
+   "INS-195",
+   "INS-196",
+   "INS-197",
+   "INS-203",
+   "INS-204",
+   "INS-205",
+   "INS-206",
+   "INS-207",
+   "INS-208",
+   "INS-209",
+   "INS-211",
+   "INS-212",
+   "INS-216",
+   "INS-217",
+   "INS-218",
+   "INS-219",
+   "INS-220",
+   "INS-221"
+  ],
+  "results": {
+   "INS-032": "pass",
+   "INS-033": "pass",
+   "INS-035": "pass",
+   "INS-037": "pass",
+   "INS-038": "pass",
+   "INS-042": "pass",
+   "INS-047": "pass",
+   "INS-048": "pass",
+   "INS-049": "pass",
+   "INS-050": "pass",
+   "INS-052": "pass",
+   "INS-053": "pass",
+   "INS-054": "pass",
+   "INS-055": "pass",
+   "INS-056": "pass",
+   "INS-057": "pass",
+   "INS-058": "pass",
+   "INS-059": "pass",
+   "INS-060": "pass",
+   "INS-062": "pass",
+   "INS-063": "pass",
+   "INS-064": "pass",
+   "INS-065": "pass",
+   "INS-068": "pass",
+   "INS-070": "pass",
+   "INS-075": "pass",
+   "INS-077": "pass",
+   "INS-079": "pass",
+   "INS-080": "pass",
+   "INS-082": "pass",
+   "INS-083": "pass",
+   "INS-084": "pass",
+   "INS-086": "pass",
+   "INS-087": "pass",
+   "INS-088": "pass",
+   "INS-089": "pass",
+   "INS-093": "pass",
+   "INS-095": "pass",
+   "INS-102": "pass",
+   "INS-103": "pass",
+   "INS-104": "pass",
+   "INS-105": "pass",
+   "INS-107": "pass",
+   "INS-108": "pass",
+   "INS-109": "pass",
+   "INS-110": "pass",
+   "INS-112": "pass",
+   "INS-113": "pass",
+   "INS-114": "pass",
+   "INS-118": "pass",
+   "INS-120": "pass",
+   "INS-122": "pass",
+   "INS-123": "pass",
+   "INS-124": "pass",
+   "INS-125": "pass",
+   "INS-127": "pass",
+   "INS-128": "pass",
+   "INS-134": "pass",
+   "INS-135": "pass",
+   "INS-137": "pass",
+   "INS-138": "pass",
+   "INS-139": "pass",
+   "INS-140": "pass",
+   "INS-142": "pass",
+   "INS-143": "pass",
+   "INS-144": "pass",
+   "INS-145": "pass",
+   "INS-146": "pass",
+   "INS-147": "pass",
+   "INS-149": "pass",
+   "INS-150": "pass",
+   "INS-162": "pass",
+   "INS-163": "pass",
+   "INS-164": "pass",
+   "INS-166": "pass",
+   "INS-167": "pass",
+   "INS-168": "pass",
+   "INS-171": "pass",
+   "INS-172": "pass",
+   "INS-173": "pass",
+   "INS-174": "pass",
+   "INS-177": "pass",
+   "INS-178": "pass",
+   "INS-179": "pass",
+   "INS-191": "pass",
+   "INS-192": "pass",
+   "INS-193": "pass",
+   "INS-194": "pass",
+   "INS-195": "pass",
+   "INS-196": "pass",
+   "INS-197": "pass",
+   "INS-203": "pass",
+   "INS-204": "pass",
+   "INS-205": "pass",
+   "INS-206": "pass",
+   "INS-207": "pass",
+   "INS-208": "pass",
+   "INS-209": "pass",
+   "INS-211": "pass",
+   "INS-212": "pass",
+   "INS-216": "pass",
+   "INS-217": "pass",
+   "INS-218": "pass",
+   "INS-219": "pass",
+   "INS-220": "pass",
+   "INS-221": "pass"
+  },
+  "seconds": 33.8
+ }
+}

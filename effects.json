@@ -1,0 +1,900 @@
+{
+ "version": "V6",
+ "source": "The INS Layout Archive · 126 layouts (14 visual pages + page 15 rebuild protocol, 2026.11.05)",
+ "canvas": {
+  "default": [
+   1200,
+   1600
+  ],
+  "ratio": "3:4",
+  "note": "user canvas size wins; all templates use a 1200x1600 viewBox and scale"
+ },
+ "page_geometry": {
+  "source_page": [
+   3072,
+   4096
+  ],
+  "cell": [
+   864,
+   1152
+  ],
+  "origin": [
+   192,
+   370
+  ],
+  "step": [
+   912,
+   1224
+  ]
+ },
+ "fonts": {
+  "verified_on_this_machine": [
+   "Arial",
+   "Arial Black",
+   "Arial Narrow",
+   "Georgia",
+   "Times New Roman",
+   "Comic Sans MS",
+   "Brush Script MT",
+   "Courier New",
+   "DIN Next LT Pro",
+   "Bahnschrift",
+   "Segoe UI",
+   "Microsoft YaHei",
+   "Noto Sans SC",
+   "Malgun Gothic",
+   "Segoe UI Emoji"
+  ],
+  "substitutes": {
+   "Helvetica": "Arial",
+   "Futura": "DIN Next LT Pro",
+   "Avenir": "Bahnschrift",
+   "Snell Roundhand": "Brush Script MT",
+   "Chalkboard": "Comic Sans MS",
+   "Silom": "Courier New",
+   "PingFang SC": "Microsoft YaHei",
+   "Noto Sans KR": "Malgun Gothic",
+   "Apple Color Emoji": "Segoe UI Emoji"
+  }
+ },
+ "masters": {
+  "_note": "Generated 2026-11-06 with ChatCut (gpt-image-2.6). Scene masters with screens have a *_GREEN.png twin; scripts/chroma_masters.py derives screen quads (*_screen.json, normalised) and foreground cut-outs (*_fg.png). Sticker sheets are split into per-object PNGs (G46_*, G24_*, G25_*).",
+  "G11_table_phone_hands.png": {
+   "for": [
+    "INS-079"
+   ],
+   "brief": "overhead Chinese dinner table, pink-framed phone lying flat on a plate (black screen), two hands holding two spoons, several dishes; 3:4; phone screen empty"
+  },
+  "G12_breakfast_phone_croissant.png": {
+   "for": [
+    "INS-219"
+   ],
+   "brief": "breakfast wooden table, phone standing upright with black screen, fork in front-right holding a bitten croissant, coffee cup and berries behind; also export G12_fg.png (fork+croissant cut-out) and G12_screen.json (4 screen corners)"
+  },
+  "G14_ground_coffee_shoes.png": {
+   "for": [
+    "INS-032"
+   ],
+   "brief": "top-down grey pavement, right hand holding a latte at top-left, blue jeans / white socks / black loafers at the bottom, empty flat area in the middle for a tilted map; also export G14_fg.png (cup hand + shoes cut-out)"
+  },
+  "G15_leather_laptop_knit.png": {
+   "for": [
+    "INS-064"
+   ],
+   "brief": "brown leather surface, silver laptop closed, crochet swatch with hook, white earphone cable, black glasses; a vertical empty strip on the right for a photo strip"
+  },
+  "G20_gingham_notebook.png": {
+   "for": [
+    "INS-068"
+   ],
+   "brief": "grey gingham tablecloth, open cream notebook with blank pages, black binder clip left, fountain pen right, soft window light"
+  },
+  "G21_bedsheet.png": {
+   "for": [
+    "INS-077"
+   ],
+   "brief": "grey-white thin-striped bedsheet with creases and window light, no objects"
+  },
+  "G22_denim.png": {
+   "for": [
+    "INS-093"
+   ],
+   "brief": "worn blue denim texture with a seam / folded edge on the right"
+  },
+  "G26_tiles_shadow.png": {
+   "for": [
+    "INS-047"
+   ],
+   "brief": "light grey square paving tiles with grain and tree shadow, evenly lit centre, no people/feet"
+  },
+  "G27_polka_fabric.png": {
+   "for": [
+    "INS-174"
+   ],
+   "brief": "cream soft fabric with dense even small black dots and natural folds"
+  },
+  "ground_035_tiles9.png": {
+   "for": [
+    "INS-035"
+   ],
+   "brief": "angled view of a 3x3 block of square ground tiles with tree shadow and shoes bottom-right; also ground_035_grid.json (16 seam intersections row-major) and ground_035_fg.png (shoes cut-out)"
+  },
+  "dual_phone_038.png": {
+   "for": [
+    "INS-038"
+   ],
+   "brief": "warm wooden table, two tilted phones with black screens, tortoiseshell glasses resting across both, five drink cans above, clothes and a finger-heart hand below; also dual_phone_038_screens.json (2x4 corners) and fg cut-out (glasses)"
+  },
+  "three_band_138.png": {
+   "for": [
+    "INS-138"
+   ],
+   "brief": "three horizontal bands: hand holding a phone (black screen), plush toys in a bag with a pink flip-phone device (black screen), red fluffy charm on black fabric; also three_band_138_screens.json"
+  },
+  "G23_cover_{mint|cream|navy}.png": {
+   "for": [
+    "INS-095",
+    "INS-116",
+    "INS-138",
+    "INS-144",
+    "INS-146",
+    "INS-172"
+   ],
+   "brief": "square album cover: cat with headphones + croissant, mint / cream / navy variants, no title text",
+   "substitute": "native-drawn cover (recorded per render in recipe.substitutes)"
+  },
+  "G24_mask_set.png": {
+   "for": [
+    "INS-211",
+    "INS-217"
+   ],
+   "brief": "2x2 transparent set: manga eye strip, pink-hat round cat character, sitting cream cat, retro anime head"
+  },
+  "G25_blue_objects.png": {
+   "for": [
+    "INS-149"
+   ],
+   "brief": "blue background, five objects in a row: silver headphones, narrow black sunglasses, white phone back, silver compact camera, iced coffee; cut each by its real bounds"
+  },
+  "G46_stickers_2x2.png": {
+   "for": [
+    "INS-102",
+    "INS-105",
+    "INS-123"
+   ],
+   "brief": "transparent 2x2: cloud strawberry cake, top-down coffee cup and saucer, full iced coffee, white retro sneaker"
+  },
+  "G49_latte_lipgloss.png": {
+   "for": [
+    "INS-070"
+   ],
+   "brief": "latte cup+saucer with pink lip gloss, one combined transparent sticker"
+  },
+  "G50_pancakes.png": {
+   "for": [
+    "INS-080"
+   ],
+   "brief": "stack of pancakes with butter and syrup on a plate, transparent sticker"
+  },
+  "mask212_cat.png": {
+   "for": [
+    "INS-212"
+   ],
+   "brief": "opaque round cat face with pink hat and yellow bow, dark outline; face overlay example (new photos get their own fitted overlay)"
+  },
+  "mask218_anime.png": {
+   "for": [
+    "INS-218"
+   ],
+   "brief": "front-facing green-eyed anime face band; per-photo variants generated to match head yaw/pitch/roll"
+  }
+ },
+ "families": {
+  "big-words": "one photo, display text; keep the face clear",
+  "ui-message": "iMessage / IG UI chrome drawn natively",
+  "carrier-*": "photo mapped into a generated scene master (phone screen, tiles, map); needs masters + measured corner json"
+ },
+ "layouts": {
+  "INS-032": {
+   "photos": 1,
+   "assets": [
+    "G14",
+    "G14_fg"
+   ],
+   "family": "carrier-map"
+  },
+  "INS-033": {
+   "photos": 7,
+   "assets": [],
+   "family": "ui-message"
+  },
+  "INS-035": {
+   "photos": 9,
+   "assets": [
+    "ground",
+    "ground_grid",
+    "ground_fg"
+   ],
+   "family": "carrier-tiles"
+  },
+  "INS-036": {
+   "photos": 7,
+   "assets": [],
+   "family": "ui-message"
+  },
+  "INS-037": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-038": {
+   "photos": 2,
+   "assets": [
+    "dual_phone"
+   ],
+   "family": "carrier-phone"
+  },
+  "INS-042": {
+   "photos": 2,
+   "assets": [],
+   "family": "ui-message"
+  },
+  "INS-043": {
+   "photos": 1,
+   "assets": [],
+   "family": "sticker-emoji"
+  },
+  "INS-047": {
+   "photos": 6,
+   "assets": [
+    "G26"
+   ],
+   "family": "carrier-tiles"
+  },
+  "INS-048": {
+   "photos": 3,
+   "assets": [],
+   "family": "ui-message"
+  },
+  "INS-049": {
+   "photos": 3,
+   "assets": [],
+   "family": "ui-picker"
+  },
+  "INS-050": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-052": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-053": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-054": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-055": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-056": {
+   "photos": 2,
+   "assets": [],
+   "family": "circle-inset"
+  },
+  "INS-057": {
+   "photos": 2,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-058": {
+   "photos": 7,
+   "assets": [],
+   "family": "ui-album"
+  },
+  "INS-059": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-060": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-062": {
+   "photos": 1,
+   "assets": [],
+   "family": "ui-calendar"
+  },
+  "INS-063": {
+   "photos": 2,
+   "assets": [],
+   "family": "ui-focus"
+  },
+  "INS-064": {
+   "photos": 4,
+   "assets": [
+    "G15"
+   ],
+   "family": "carrier-strip"
+  },
+  "INS-065": {
+   "photos": 2,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-066": {
+   "photos": 7,
+   "assets": [],
+   "family": "text-inline-photos"
+  },
+  "INS-067": {
+   "photos": 4,
+   "assets": [],
+   "family": "ui-schedule"
+  },
+  "INS-068": {
+   "photos": 8,
+   "assets": [
+    "G20"
+   ],
+   "family": "carrier-notebook"
+  },
+  "INS-069": {
+   "photos": 1,
+   "assets": [],
+   "family": "pixel-fragments"
+  },
+  "INS-070": {
+   "photos": 3,
+   "assets": [
+    "G49"
+   ],
+   "family": "ui-schedule"
+  },
+  "INS-072": {
+   "photos": 1,
+   "assets": [],
+   "family": "sticker-tears"
+  },
+  "INS-073": {
+   "photos": 4,
+   "assets": [],
+   "family": "text-inline-photos"
+  },
+  "INS-074": {
+   "photos": 2,
+   "assets": [],
+   "family": "ui-dialog"
+  },
+  "INS-075": {
+   "photos": 1,
+   "assets": [],
+   "family": "sticker-tags"
+  },
+  "INS-077": {
+   "photos": 1,
+   "assets": [
+    "G21"
+   ],
+   "family": "carrier-airdrop"
+  },
+  "INS-078": {
+   "photos": 1,
+   "assets": [],
+   "family": "sticker-stars"
+  },
+  "INS-079": {
+   "photos": 1,
+   "assets": [
+    "G11"
+   ],
+   "family": "carrier-phone"
+  },
+  "INS-080": {
+   "photos": 3,
+   "assets": [
+    "G50"
+   ],
+   "family": "ui-schedule"
+  },
+  "INS-082": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-083": {
+   "photos": 1,
+   "assets": [],
+   "family": "camera-hud"
+  },
+  "INS-084": {
+   "photos": 1,
+   "assets": [],
+   "family": "camera-hud"
+  },
+  "INS-086": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-087": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-088": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-089": {
+   "photos": 1,
+   "assets": [],
+   "family": "ui-focus"
+  },
+  "INS-092": {
+   "photos": 6,
+   "assets": [],
+   "family": "ui-ig-post"
+  },
+  "INS-093": {
+   "photos": 4,
+   "assets": [
+    "G22"
+   ],
+   "family": "carrier-strip"
+  },
+  "INS-095": {
+   "photos": 1,
+   "assets": [
+    "G23:optional"
+   ],
+   "family": "ui-music"
+  },
+  "INS-102": {
+   "photos": 1,
+   "assets": [
+    "G46"
+   ],
+   "family": "ui-ig-post"
+  },
+  "INS-103": {
+   "photos": 1,
+   "assets": [],
+   "family": "ui-browser"
+  },
+  "INS-104": {
+   "photos": 2,
+   "assets": [],
+   "family": "sticker-stars"
+  },
+  "INS-105": {
+   "photos": 4,
+   "assets": [
+    "G46"
+   ],
+   "family": "ui-calendar"
+  },
+  "INS-106": {
+   "photos": 8,
+   "assets": [],
+   "family": "report-grid"
+  },
+  "INS-107": {
+   "photos": 1,
+   "assets": [],
+   "family": "duplicate-note"
+  },
+  "INS-108": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-109": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-110": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-112": {
+   "photos": 2,
+   "assets": [],
+   "family": "ui-weather"
+  },
+  "INS-113": {
+   "photos": 1,
+   "assets": [],
+   "family": "split-words"
+  },
+  "INS-114": {
+   "photos": 3,
+   "assets": [],
+   "family": "collage-notes"
+  },
+  "INS-115": {
+   "photos": 6,
+   "assets": [],
+   "family": "collage-notes"
+  },
+  "INS-116": {
+   "photos": 1,
+   "assets": [
+    "G23:optional"
+   ],
+   "family": "ui-music"
+  },
+  "INS-117": {
+   "photos": 3,
+   "assets": [],
+   "family": "heart-border"
+  },
+  "INS-118": {
+   "photos": 1,
+   "assets": [],
+   "family": "camera-hud"
+  },
+  "INS-119": {
+   "photos": 2,
+   "assets": [],
+   "family": "ui-dialog"
+  },
+  "INS-120": {
+   "photos": 2,
+   "assets": [],
+   "family": "collage-notes"
+  },
+  "INS-122": {
+   "photos": 2,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-123": {
+   "photos": 3,
+   "assets": [
+    "G46"
+   ],
+   "family": "collage-sticker"
+  },
+  "INS-124": {
+   "photos": 1,
+   "assets": [],
+   "family": "camera-hud"
+  },
+  "INS-125": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-127": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-128": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-129": {
+   "photos": 6,
+   "assets": [],
+   "family": "collage-files"
+  },
+  "INS-130": {
+   "photos": 4,
+   "assets": [],
+   "family": "object-boxes"
+  },
+  "INS-132": {
+   "photos": 1,
+   "assets": [],
+   "family": "face-dots"
+  },
+  "INS-133": {
+   "photos": 2,
+   "assets": [],
+   "family": "sticker-tears"
+  },
+  "INS-134": {
+   "photos": 1,
+   "assets": [],
+   "family": "ui-share"
+  },
+  "INS-135": {
+   "photos": 6,
+   "assets": [],
+   "family": "ui-profile"
+  },
+  "INS-137": {
+   "photos": 1,
+   "assets": [],
+   "family": "word-cloud"
+  },
+  "INS-138": {
+   "photos": 2,
+   "assets": [
+    "three_band",
+    "G23:optional"
+   ],
+   "family": "carrier-phone"
+  },
+  "INS-139": {
+   "photos": 1,
+   "assets": [],
+   "family": "ui-ticket"
+  },
+  "INS-140": {
+   "photos": 1,
+   "assets": [],
+   "family": "sticker-caption"
+  },
+  "INS-142": {
+   "photos": 1,
+   "assets": [],
+   "family": "face-stickers"
+  },
+  "INS-143": {
+   "photos": 1,
+   "assets": [],
+   "family": "face-stickers"
+  },
+  "INS-144": {
+   "photos": 1,
+   "assets": [
+    "G23:optional"
+   ],
+   "family": "ui-music"
+  },
+  "INS-145": {
+   "photos": 1,
+   "assets": [],
+   "family": "letter-rain"
+  },
+  "INS-146": {
+   "photos": 1,
+   "assets": [
+    "G23:optional"
+   ],
+   "family": "ui-music"
+  },
+  "INS-147": {
+   "photos": 2,
+   "assets": [],
+   "family": "stacked-dots"
+  },
+  "INS-148": {
+   "photos": 1,
+   "assets": [],
+   "family": "dot-frame"
+  },
+  "INS-149": {
+   "photos": 1,
+   "assets": [
+    "G25"
+   ],
+   "family": "sticker-objects"
+  },
+  "INS-150": {
+   "photos": 1,
+   "assets": [],
+   "family": "face-stickers"
+  },
+  "INS-162": {
+   "photos": 1,
+   "assets": [],
+   "family": "face-stickers"
+  },
+  "INS-163": {
+   "photos": 2,
+   "assets": [],
+   "family": "ui-message"
+  },
+  "INS-164": {
+   "photos": 1,
+   "assets": [],
+   "family": "ui-message"
+  },
+  "INS-166": {
+   "photos": 2,
+   "assets": [],
+   "family": "desktop-icons"
+  },
+  "INS-167": {
+   "photos": 1,
+   "assets": [],
+   "family": "sticker-stars"
+  },
+  "INS-168": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-171": {
+   "photos": 1,
+   "assets": [],
+   "family": "caption-notes"
+  },
+  "INS-172": {
+   "photos": 1,
+   "assets": [
+    "G23:optional"
+   ],
+   "family": "ui-music"
+  },
+  "INS-173": {
+   "photos": 1,
+   "assets": [],
+   "family": "letter-rain"
+  },
+  "INS-174": {
+   "photos": 4,
+   "assets": [
+    "G27"
+   ],
+   "family": "carrier-collage"
+  },
+  "INS-177": {
+   "photos": 2,
+   "assets": [],
+   "family": "ui-music"
+  },
+  "INS-178": {
+   "photos": 1,
+   "assets": [],
+   "family": "caption-notes"
+  },
+  "INS-179": {
+   "photos": 1,
+   "assets": [],
+   "family": "caption-notes"
+  },
+  "INS-191": {
+   "photos": 9,
+   "assets": [],
+   "family": "ui-message"
+  },
+  "INS-192": {
+   "photos": 1,
+   "assets": [],
+   "family": "object-boxes"
+  },
+  "INS-193": {
+   "photos": 4,
+   "assets": [],
+   "family": "ui-schedule"
+  },
+  "INS-194": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-195": {
+   "photos": 1,
+   "assets": [],
+   "family": "split-same-photo"
+  },
+  "INS-196": {
+   "photos": 3,
+   "assets": [],
+   "family": "ui-picker"
+  },
+  "INS-197": {
+   "photos": 1,
+   "assets": [],
+   "family": "caption-notes"
+  },
+  "INS-203": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-204": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-205": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-206": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-207": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-208": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-209": {
+   "photos": 1,
+   "assets": [],
+   "family": "big-words"
+  },
+  "INS-211": {
+   "photos": 1,
+   "assets": [
+    "G24"
+   ],
+   "family": "face-mask"
+  },
+  "INS-212": {
+   "photos": 1,
+   "assets": [
+    "mask212"
+   ],
+   "family": "face-mask"
+  },
+  "INS-216": {
+   "photos": 1,
+   "assets": [],
+   "family": "caption-notes"
+  },
+  "INS-217": {
+   "photos": 1,
+   "assets": [
+    "G24"
+   ],
+   "family": "face-mask"
+  },
+  "INS-218": {
+   "photos": 1,
+   "assets": [
+    "mask218"
+   ],
+   "family": "face-mask"
+  },
+  "INS-219": {
+   "photos": 1,
+   "assets": [
+    "G12",
+    "G12_screen",
+    "G12_fg"
+   ],
+   "family": "carrier-phone"
+  },
+  "INS-220": {
+   "photos": 1,
+   "assets": [],
+   "family": "colour-card"
+  },
+  "INS-221": {
+   "photos": 1,
+   "assets": [],
+   "family": "object-boxes"
+  }
+ },
+ "recommender": {
+  "script": "scripts/recommend.py",
+  "overlays": "assets/overlay/ (build with scripts/build_overlays.py after adding or changing a template)",
+  "signals": [
+   "head overlap with overlay map (face-aware templates exempt)",
+   "feet required for INS-195",
+   "family taste weights from reports/taste.jsonl",
+   "one family per set + one control from an unpicked family",
+   "no id repeats across a batch"
+  ]
+ }
+}
