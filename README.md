@@ -2,9 +2,21 @@
 
 把普通照片排成 ins 风的版式。这是 126 套「排版效果库」的开源实现，目前完成 106 套。可以当 Claude Code Skill 用，也可以直接跑命令行。
 
-![12 个排版示例](examples/gallery/gallery.jpg)
+## 案例
 
-> 示例里的人物都是 AI 生成的虚构人物，不是真实照片。
+### 原作者的版式
+
+![普渡众神花原帖中的 12 个版式案例](examples/gallery/original.jpg)
+
+> 以上 12 张来自 **普渡众神花** 的[原帖](https://www.douyin.com/note/7704661887081909540)，版权归原作者所有，这里仅作展示和对比。完整的 126 套效果图请看原帖。
+
+### 用本项目做出来的
+
+下面是同样的 12 套版式，顺序和上图一一对应。
+
+![本项目渲染的 12 个排版示例](examples/gallery/gallery.jpg)
+
+> 这组示例里的人物都是 AI 生成的虚构人物，不是真实照片。
 
 ## 致谢
 
@@ -12,7 +24,7 @@
 
 这 126 套版式的视觉创意和第 15 页的建库规则都是原作者的成果。没有这份作品就没有这个项目，请去原帖支持作者。
 
-本仓库不包含原作者的 15 张图片。所有版式都是看着参考图用代码重新写的，不是原作者的模板源文件。
+本仓库没有收录原作者完整的 15 张图片，只在上面引用了其中 12 个案例。所有版式都是看着参考图用代码重新写的，不是原作者的模板源文件。
 
 ## 本仓库的原创部分
 
@@ -145,13 +157,13 @@ Windows 上把 `python3` 换成 `python`。然后直接对 Claude 说「帮我�
 
 ## 许可
 
-代码和本仓库的素材使用 [MIT 许可](LICENSE)，第三方模型和原作版式的说明见 [NOTICE.md](NOTICE.md)。
+代码和本仓库生成的素材使用 [MIT 许可](LICENSE)。`examples/gallery/original.jpg` 的版权归原作者，不在 MIT 范围内。第三方模型和原作版式的说明见 [NOTICE.md](NOTICE.md)。
 
 原作者没有声明开源许可，MIT 只覆盖本仓库的内容，不代表原版式设计也按 MIT 授权。如果你是原作者并希望调整署名或内容，请开 issue，我们会尽快处理。
 
 ## English
 
-ins-layout turns ordinary photos into Instagram-style layouts. It is an open-source re-implementation of 106 of the 126 layouts in *The INS Layout Archive* by 普渡众神花 ([original post](https://www.douyin.com/note/7704661887081909540)). The original pages are not included.
+ins-layout turns ordinary photos into Instagram-style layouts. It is an open-source re-implementation of 106 of the 126 layouts in *The INS Layout Archive* by 普渡众神花 ([original post](https://www.douyin.com/note/7704661887081909540)). The 15 original pages are not included, apart from 12 example layouts shown for comparison, which remain the author's copyright.
 
 Added by this project: taste calibration with A/B/C/D candidates, a recommender that keeps faces clear, automatic head and feet measurement, head-centred cropping with supersampling, green-screen twins for perspective mapping and cut-outs, occlusion-tolerant screen fitting, and scene variants.
 

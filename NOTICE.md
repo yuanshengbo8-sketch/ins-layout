@@ -7,7 +7,11 @@ by 普渡众神花: https://www.douyin.com/note/7704661887081909540
 
 The original author has not stated an open-source licence for that work. This repository does not contain the original
 15 pages. Every layout here was written as new code by looking at the reference. The MIT licence in this repository
-covers this repository's code and assets only. It does not grant any rights in the original designs.
+covers this repository's own code and generated assets only. It does not grant any rights in the original designs.
+
+examples/gallery/original.jpg shows 12 layouts taken from the original post, with credit, for display and comparison.
+That image remains the copyright of its author and of the people pictured. It is not covered by the MIT licence, and
+it will be removed on request.
 
 If you are the rights holder and want the credit or content changed, please open an issue.
 
