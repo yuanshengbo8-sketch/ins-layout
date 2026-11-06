@@ -124,7 +124,7 @@ playwright install chromium
 ## 现状和限制
 
 - **完成度**：126 套完成 106 套。没做的 20 套是 036 043 066 067 069 072 073 074 078 092 106 115 116 117 119 129 130 132 133 148。
-- **系统**：在 Windows 11 上开发，Windows 和 Linux（Debian）都从下载开始实测过。Linux 缺字体，文字观感会和示例不同。macOS 没测过。
+- **系统**：Windows、macOS（Apple 芯片）和 Linux 都从全新安装实测通过，每次提交都会在 GitHub Actions 上自动重测。不同系统的字体不完全相同，文字观感可能和示例略有差别。
 - **推荐**：默认审美只来自一个人的 4 次选择，只是一个起点，用得越多越准。自动推荐目前只考虑单图版式，多图版式要手动指定。
 - **文案**：版式里的默认文字是英文占位，建议用 `--text` 换成你自己的。
 - **素材**：场景图为了控制仓库体积转成了 WebP，绿幕原图没有放进来。
@@ -141,4 +141,4 @@ ins-layout turns ordinary photos into Instagram-style layouts. It is an open-sou
 
 Added by this project: taste calibration with A/B/C/D candidates, a recommender that keeps faces clear, automatic head and feet measurement, head-centred cropping with supersampling, green-screen twins for perspective mapping and cut-outs, occlusion-tolerant screen fitting, and scene variants.
 
-Run the Quick Start commands above. It works as a command-line tool and as a Claude Code Skill. Tested from a clean download on Windows 11 and Debian Linux, not on macOS. Code is MIT licensed. See NOTICE.md for the original work and third-party models.
+Run the Quick Start commands above. It works as a command-line tool and as a Claude Code Skill. Clean installs are tested on Windows, macOS (Apple silicon) and Linux on every push. Code is MIT licensed. See NOTICE.md for the original work and third-party models.
