@@ -44,6 +44,8 @@ cd ins-layout
 python -m venv .venv
 ```
 
+Mac 上这一步要写 `python3 -m venv .venv`，因为系统没有 `python` 这个命令。提示找不到时，先从 [python.org](https://www.python.org/downloads/) 安装 Python 3.12。激活虚拟环境之后，后面的命令都能直接用 `python`。
+
 激活虚拟环境。Windows PowerShell 用第一行，macOS 和 Linux 用第二行：
 
 ```powershell
@@ -112,14 +114,14 @@ git clone https://github.com/yuanshengbo8-sketch/ins-layout.git ~/.claude/skills
 ```
 
 ```bash
-pip install -r ~/.claude/skills/ins-layout/requirements.txt
+python3 -m pip install -r ~/.claude/skills/ins-layout/requirements.txt
 ```
 
 ```bash
-playwright install chromium
+python3 -m playwright install chromium
 ```
 
-然后直接对 Claude 说「帮我把这几张照片做成 ins 排版」就可以。
+Windows 上把 `python3` 换成 `python`。然后直接对 Claude 说「帮我把这几张照片做成 ins 排版」就可以。
 
 ## 现状和限制
 
