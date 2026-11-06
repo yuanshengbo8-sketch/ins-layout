@@ -8,7 +8,7 @@ $s = (New-Object -ComObject WScript.Shell).CreateShortcut($lnk)
 $s.TargetPath = $pyw
 $s.Arguments = "-X utf8 `"$app\desktop.py`""
 $s.WorkingDirectory = (Split-Path $app)
-$s.IconLocation = "$apppp.ico,0"
+$s.IconLocation = "$app\app.ico,0"
 $s.Description = $name
 $s.Save()
 Write-Output $lnk
