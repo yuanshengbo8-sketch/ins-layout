@@ -1,0 +1,54 @@
+name: clean-install test
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Linux system packages
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y libgl1 libglib2.0-0 libegl1 libgles2 fonts-noto-cjk fonts-noto-color-emoji
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium
+      - name: Environment check
+        run: python scripts/preflight.py
+      - name: Four candidates from a real photo
+        run: python scripts/candidates.py --photo examples/photos/demo_01_park.jpg --auto --out out/park
+      - name: Chinese text and a scene variant
+        run: |
+          python scripts/render.py --id 164 --photos examples/photos/demo_02_cafe.jpg --text "l1=今天也很好" --out out/zh
+          python scripts/render.py --id 038 --photos examples/photos/demo_01_park.jpg examples/photos/demo_02_cafe.jpg --variant 2 --out out/variant
+      - name: iPhone HEIC photo
+        shell: python
+        run: |
+          import subprocess, sys
+          import pillow_heif
+          from PIL import Image
+          pillow_heif.register_heif_opener()
+          Image.open("examples/photos/demo_03_beach.jpg").save("beach.heic")
+          subprocess.run([sys.executable, "scripts/render.py", "--id", "220", "--photos", "beach.heic", "--out", "out/heic"], check=True)
+      - name: Every layout
+        run: python scripts/verify.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: output-${{ matrix.os }}
+          path: |
+            out/**/*.jpg
+            out/**/*.png
+            reports/preflight.json
