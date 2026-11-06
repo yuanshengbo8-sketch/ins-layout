@@ -288,6 +288,20 @@ def open_window():
                       "--disable-renderer-backgrounding", "--disable-backgrounding-occluded-windows"])
 
 
+def focus_window():
+    """A second double-click brings the open window forward instead of opening another one."""
+    if sys.platform != "win32":
+        return False
+    import ctypes
+    user32 = ctypes.windll.user32
+    hwnd = user32.FindWindowW(None, "ins排版台")
+    if not hwnd:
+        return False
+    user32.ShowWindow(hwnd, 9)  # SW_RESTORE, in case it is minimised
+    user32.SetForegroundWindow(hwnd)
+    return True
+
+
 def already_running():
     try:
         with urllib.request.urlopen(ORIGIN + "/ping", timeout=1) as r:
@@ -313,7 +327,8 @@ def watchdog(server):
 
 def main():
     if already_running():
-        open_window()
+        if not focus_window():
+            open_window()
         return
     shutil.rmtree(SESSIONS, ignore_errors=True)  # copies left by a previous run
     server = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
